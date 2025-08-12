@@ -1,0 +1,1 @@
+instance_create_depth(x+120,y-36,-10,obj_hud_sparkle)

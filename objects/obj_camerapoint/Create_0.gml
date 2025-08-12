@@ -1,0 +1,1 @@
+camspeed = 0.3

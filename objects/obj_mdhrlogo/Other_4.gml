@@ -1,0 +1,1 @@
+audio_play_sound(cuphead,10,false,1)

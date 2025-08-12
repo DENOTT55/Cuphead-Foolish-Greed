@@ -1,0 +1,1 @@
+instance_create_depth(x,y,depth-1,obj_big_smoke_particle)

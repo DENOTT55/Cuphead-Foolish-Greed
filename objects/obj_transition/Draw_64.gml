@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_transition_in,image_index,view_xport[0],view_yport[0],2,2,0,c_white,1)

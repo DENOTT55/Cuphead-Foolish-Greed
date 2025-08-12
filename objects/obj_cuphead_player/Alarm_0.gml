@@ -1,0 +1,3 @@
+shotdelay = 0
+
+

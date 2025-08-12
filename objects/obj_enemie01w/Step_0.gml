@@ -1,0 +1,8 @@
+if y > 400{
+	instance_destroy()	
+}
+
+hspeed += dir
+
+image_yscale = base_scale + sin(current_time * bounce_speed) * bounce_strength;
+image_xscale = base_scale + cos(current_time * bounce_speed) * bounce_strength;

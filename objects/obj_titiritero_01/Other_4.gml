@@ -1,0 +1,1 @@
+audio_play_sound(snd_clownlaught,10,false,1.4,0,random_range(0.7,1.1))

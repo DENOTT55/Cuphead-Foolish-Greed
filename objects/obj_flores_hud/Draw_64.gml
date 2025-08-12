@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_flores_hud,0,640,360,image_xscale,image_yscale,0,c_white,image_alpha)

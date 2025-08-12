@@ -1,0 +1,6 @@
+instance_create_depth(x,y - 36,0,obj_big_smoke_particle)
+instance_create_depth(x,y - 36,0,obj_cactus_particles)
+instance_create_depth(x,y - 36,0,obj_cactus_particles)
+instance_create_depth(x,y - 36,0,obj_cactus_particles)
+instance_create_depth(x,y - 36,0,obj_cactus_particles)
+instance_create_depth(x,y - 36,0,obj_cactus_particles)

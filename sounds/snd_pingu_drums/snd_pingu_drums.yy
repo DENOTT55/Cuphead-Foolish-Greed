@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_pingu_drums",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":8.215374,
+  "name":"snd_pingu_drums",
+  "parent":{
+    "name":"Enemies Sounds",
+    "path":"folders/Sonidos/Enemies Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_pingu_drums.ogg",
+  "type":0,
+  "volume":0.4,
+}

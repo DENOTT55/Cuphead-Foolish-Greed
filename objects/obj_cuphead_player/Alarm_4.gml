@@ -1,0 +1,1 @@
+show_weapon = 0 //Desactivar que se muestre arma en HUD

@@ -1,0 +1,5 @@
+draw_set_font(dead_screen_font)
+draw_set_color(c_black)
+draw_sprite(spr_key_circle,0,x+122,y+8)
+draw_sprite(spr_key_circle,0,x+220,y+8)
+draw_text(x,y,"Seleccionar  "+chr(global.kjump)+"   Volver  "+chr(global.kshoot))

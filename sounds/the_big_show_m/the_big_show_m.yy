@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"the_big_show_m",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":146.28572,
+  "name":"the_big_show_m",
+  "parent":{
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"the_big_show_m.ogg",
+  "type":0,
+  "volume":0.7,
+}

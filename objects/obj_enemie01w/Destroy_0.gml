@@ -1,0 +1,1 @@
+instance_create_depth(x,y,depth,obj_enemie01w_fall)

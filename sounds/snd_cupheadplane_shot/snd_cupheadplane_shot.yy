@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_cupheadplane_shot",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.20898,
+  "name":"snd_cupheadplane_shot",
+  "parent":{
+    "name":"Sonidos",
+    "path":"folders/Sonidos.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_cupheadplane_shot.mp3",
+  "type":0,
+  "volume":0.75,
+}

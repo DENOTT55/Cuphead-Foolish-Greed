@@ -1,0 +1,1 @@
+obj_cuphead_player.hspeed = 0

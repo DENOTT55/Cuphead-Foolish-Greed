@@ -1,0 +1,1 @@
+audio_play_sound(foolish_greed,10,true,1)

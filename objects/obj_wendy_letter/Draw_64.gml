@@ -1,0 +1,5 @@
+draw_sprite_ext(spr_boss_letter,image_index,640,360,image_xscale*2,image_yscale*2,image_angle,c_white,image_alpha)
+draw_set_font(level_letter_font_1)
+draw_text_transformed_color(490,260,"WENDY LE WENDINGO \n                EN",2,2,0,c_white,c_white,c_white,c_white,image_alpha)
+draw_set_font(level_letter_font)
+draw_text_transformed_color(436,330,"CAZA NEVADA",2,2,0,c_white,c_white,c_white,c_white,image_alpha)
