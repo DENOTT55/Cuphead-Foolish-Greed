@@ -10,7 +10,7 @@ shothandframe = 0;//Variable de velocidad de la mano al disparar
 image_speed = 0.15;
 global.aim = 0; // Direccion apuntado
 velocidad = 4; //Velocidad del Jugador
-vida = 0; //Vida (Duh)
+vida = 0; //Vida (Duh) -- El "Duh" XDDDD
 
 estado = 0;
 // 0 Quieto

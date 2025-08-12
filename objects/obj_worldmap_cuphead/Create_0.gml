@@ -20,3 +20,4 @@ grid_rows = 2;
 // Prevención de múltiples inputs por frame
 input_delay = 0;
 index = 0
+

@@ -41,7 +41,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_boss_smoke_bomb_particle",
     "autoRecord":true,
     "backdropHeight":768,
@@ -77,36 +77,16 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ecfbdec6-920e-4daa-b2bc-f9002e5b3a13","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3fc49665-67a9-4662-ba56-75b66519da32","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b15957cd-10ea-42e9-8694-fcebcab0c9c1","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"089ec184-bbc7-4ebe-9870-a6a3c8ff5804","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05cb4fa9-727c-41c2-8e93-e53ccf22e50b","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e7ff197-d6c9-444c-aedd-7d7bd0b2e7e0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"71311c03-6e12-477f-9559-6cf5bb7dce7b","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"87fcfe7e-9777-4416-9399-3cdd03e07c2b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89da31ad-e05b-46c3-904b-b256dbd0a2b5","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"74dd4c99-c4b2-4cbd-85fa-cfdfce93edfa","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a3dfe01f-86bb-465f-a702-7f9a8e4ff64a","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"1cd4e053-e179-412e-aa09-30e1437e5d1a","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3b0f34e-1f04-4703-9326-1f27ca504e5c","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8aca784f-f4dd-4894-b3fd-68fe0b5aadb4","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"82041364-08dc-444e-935b-fc91f1e3e4c2","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"dd024f22-4018-4bd6-8908-9db5e4f8ddf0","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df58a211-3150-46a2-a039-6cb8f894de63","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c9b9aef1-d8f9-4181-b459-7f2dad74d4e6","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c45315f5-a797-4bae-abce-8e22ad5161ae","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"041037c4-ffc0-4e24-a0e2-c132c88e9b8f","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ecfbdec6-920e-4daa-b2bc-f9002e5b3a13","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3fc49665-67a9-4662-ba56-75b66519da32","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b15957cd-10ea-42e9-8694-fcebcab0c9c1","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"089ec184-bbc7-4ebe-9870-a6a3c8ff5804","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"05cb4fa9-727c-41c2-8e93-e53ccf22e50b","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5e7ff197-d6c9-444c-aedd-7d7bd0b2e7e0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"71311c03-6e12-477f-9559-6cf5bb7dce7b","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"87fcfe7e-9777-4416-9399-3cdd03e07c2b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"89da31ad-e05b-46c3-904b-b256dbd0a2b5","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"74dd4c99-c4b2-4cbd-85fa-cfdfce93edfa","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a3dfe01f-86bb-465f-a702-7f9a8e4ff64a","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1cd4e053-e179-412e-aa09-30e1437e5d1a","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3b0f34e-1f04-4703-9326-1f27ca504e5c","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8aca784f-f4dd-4894-b3fd-68fe0b5aadb4","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"82041364-08dc-444e-935b-fc91f1e3e4c2","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dd024f22-4018-4bd6-8908-9db5e4f8ddf0","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"df58a211-3150-46a2-a039-6cb8f894de63","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c9b9aef1-d8f9-4181-b459-7f2dad74d4e6","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c45315f5-a797-4bae-abce-8e22ad5161ae","path":"sprites/spr_boss_smoke_bomb_particle/spr_boss_smoke_bomb_particle.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"041037c4-ffc0-4e24-a0e2-c132c88e9b8f","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

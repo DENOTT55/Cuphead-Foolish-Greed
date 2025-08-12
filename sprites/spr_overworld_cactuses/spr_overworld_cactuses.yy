@@ -51,7 +51,7 @@
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
-    "$GMSequence":"",
+    "$GMSequence":"v1",
     "%Name":"spr_overworld_cactuses",
     "autoRecord":true,
     "backdropHeight":768,
@@ -82,6 +82,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":85.0,
+    "seqWidth":137.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

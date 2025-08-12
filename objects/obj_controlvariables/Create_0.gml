@@ -53,6 +53,9 @@ global.kex = ini_read_string("Player","kex",ord("V"))
 global.kdash = ini_read_string("Player","kdash","vk_shift")
 global.kweapon = ini_read_string("Player","kweapon",ord("W"))
 
+//ESTABLECER VARIABLES DE ANDROID
+SetControlsANDROID()
+
 //LISTA DE ARMAS
 //empty = [0, 10, 0, 0]
 global.armas = [
