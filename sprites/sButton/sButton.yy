@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"GAME",
-    "path":"folders/Sprites/GAME.yy",
+    "name":"Android",
+    "path":"folders/Sprites/Android.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

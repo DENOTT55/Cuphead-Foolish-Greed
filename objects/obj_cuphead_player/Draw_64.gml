@@ -3,7 +3,7 @@ draw_sprite_ext(spr_weapons_slots,actual_weapon[2],60,620,1,1,0,c_black,1)
 draw_sprite(spr_weapons_slots,actual_weapon[2],60,618)}
 
 if enable == 1{
-draw_sprite(spr_hpbar,vida,32,646)
+draw_sprite(spr_hpbar,vida,vidaX,vidaY)
 
 if cards == 1{
 	draw_sprite(spr_card,0,100+20,646)

@@ -17,7 +17,7 @@ global.abA = virtual_key_add(X,Y,Sx,Sy,global.kjump)
 
 //elimina los controles de android solo si no estas en telefono
 
-/*if os_type != os_android
+if os_type != os_android
 {
     instance_destroy()
 }

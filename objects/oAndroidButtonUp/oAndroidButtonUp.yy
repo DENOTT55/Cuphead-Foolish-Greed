@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oAndroidButton2",
+  "%Name":"oAndroidButtonUp",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oAndroidButton2",
+  "name":"oAndroidButtonUp",
   "overriddenProperties":[],
   "parent":{
     "name":"Android",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sButton",
-    "path":"sprites/sButton/sButton.yy",
+    "name":"sButton_1",
+    "path":"sprites/sButton_1/sButton_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

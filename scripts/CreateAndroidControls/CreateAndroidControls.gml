@@ -8,5 +8,9 @@ function CreateAndroidControls()
 	
 	instance_create_layer(-300, -300, "AndroidControls", oAndroidButton1);
 	instance_create_layer(-300, -300, "AndroidControls", oAndroidButton2);
+	instance_create_layer(-300, -300, "AndroidControls", oAndroidButtonLeft);
+	instance_create_layer(-300, -300, "AndroidControls", oAndroidButtonRight);
+	instance_create_layer(-300, -300, "AndroidControls", oAndroidButtonUp);
+	instance_create_layer(-300, -300, "AndroidControls", oAndroidButtonDown);
 	
 }

@@ -14,6 +14,11 @@ global.aim = 0; // Direccion apuntado
 velocidad = 4; //Velocidad del Jugador
 vida = 0; //Vida (Duh) -- El "Duh" XDDDD
 
+if os_type = os_android
+{vidaX = display_get_gui_width()/2; vidaY = 32}
+else
+{vidaX = 32; vidaY = 646}
+
 estado = 0;
 // 0 Quieto
 // 1 Moviendose
