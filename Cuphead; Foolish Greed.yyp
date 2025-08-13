@@ -242,6 +242,7 @@
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_monte_cao_tic","path":"rooms/rm_monte_cao_tic/rm_monte_cao_tic.yy",},},
     {"id":{"name":"rm_wendy_the_wendingo","path":"rooms/rm_wendy_the_wendingo/rm_wendy_the_wendingo.yy",},},
+    {"id":{"name":"CreateAndroidControls","path":"scripts/CreateAndroidControls/CreateAndroidControls.yy",},},
     {"id":{"name":"SetControlsANDROID","path":"scripts/SetControlsANDROID/SetControlsANDROID.yy",},},
     {"id":{"name":"cuphead","path":"sounds/cuphead/cuphead.yy",},},
     {"id":{"name":"foolish_greed","path":"sounds/foolish_greed/foolish_greed.yy",},},
