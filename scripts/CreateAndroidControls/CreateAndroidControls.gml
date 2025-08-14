@@ -1,7 +1,7 @@
 /// @description CreateAndroidControls()
 function CreateAndroidControls() 
 {
-	//if os_type != os_android {exit}
+	if os_type != os_android {exit}
 	
 	if !layer_exists("AndroidControls")
 	{layer_create(-999,"AndroidControls")}

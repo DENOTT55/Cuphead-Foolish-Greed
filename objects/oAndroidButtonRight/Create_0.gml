@@ -1,4 +1,7 @@
 image_speed = 0;image_index = 1
+
+if os_type != os_android {instance_destroy()}
+
 ini_open("AndroidControls.ini")
 global.abRx  = ini_read_real("RIGHT","X",(95*2)+24)
 global.abRy  = ini_read_real("RIGHT","Y",360*2-(95*1.4)-120)
@@ -13,15 +16,13 @@ CONFIG = false
 X = global.abRx
 Y = global.abRy
 Sx = 95*global.abRSx
-Sy = 95*global.abRSx
+Sy = 95*global.abRSy
+
+ssx = global.abRSx
+ssy = global.abRSy
 
 global.abR = virtual_key_add(X,Y,Sx,Sy,global.kright)
 
-//elimina los controles de android solo si no estas en telefono
-
-if os_type != os_android
-{
-    instance_destroy()
-}
+//virtual_key_show(global.abR)
 
 

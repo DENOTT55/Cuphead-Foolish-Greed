@@ -1,4 +1,6 @@
-if keyboard_check(global.kjump)
+if CONFIG = true
+{image_alpha = 1;x = X+(Sx/2);y = Y+(Sy/2)}
+else if keyboard_check(global.kjump)
 {
     image_alpha = 1
 }
@@ -7,10 +9,15 @@ else
     image_alpha = 0.5
 }
 
-if mouse_check_button(mb_right) and CONFIG
+if CONFIG = true
 {
-    X = device_mouse_x_to_gui(0)
-    Y = device_mouse_y_to_gui(0)
+	image_xscale = lerp(image_xscale,ssx,0.3)
+	image_yscale = lerp(image_yscale,ssy,0.3)
+}
+else
+{
+	image_xscale = ssx
+	image_yscale = ssy
 }
 
 //virtual_key_show(global.abA)
