@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8bb95ef3-600b-471b-bba5-5b1ca5491de5","name":"8bb95ef3-600b-471b-bba5-5b1ca5491de5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0311b247-59aa-4209-9cb5-c2ac2e2b00ad","name":"0311b247-59aa-4209-9cb5-c2ac2e2b00ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":124,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"50141214-7fcc-4bd3-98bc-cbb4ba2ba2dc","blendMode":0,"displayName":"default","isLocked":false,"name":"50141214-7fcc-4bd3-98bc-cbb4ba2ba2dc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"971d5cad-8c07-4936-8e06-b27aad440f56","blendMode":0,"displayName":"default","isLocked":false,"name":"971d5cad-8c07-4936-8e06-b27aad440f56","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_beatricemedal",
   "nineSlice":null,
@@ -63,12 +63,16 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":124.0,
+    "seqWidth":124.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8bb95ef3-600b-471b-bba5-5b1ca5491de5","path":"sprites/spr_beatricemedal/spr_beatricemedal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"66d6269b-608c-4a38-970b-526ffeb5d6a1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0311b247-59aa-4209-9cb5-c2ac2e2b00ad","path":"sprites/spr_beatricemedal/spr_beatricemedal.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ac490162-26b1-49a7-b3a6-0825e6b05eb6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
