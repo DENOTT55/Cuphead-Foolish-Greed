@@ -1,6 +1,6 @@
 image_speed = 0;image_index = 1
 
-if os_type != os_android {instance_destroy()}
+
 
 ini_open("AndroidControls.ini")
 global.abUx  = ini_read_real("UP","X",95*1.5)
@@ -23,3 +23,4 @@ ssy = global.abUSy
 
 global.abU = virtual_key_add(X,Y,Sx,Sy,global.kup)
 //virtual_key_show(global.abU)
+if os_type != os_android {virtual_key_delete(global.abU);instance_destroy()}

@@ -1,10 +1,10 @@
 image_speed = 0;image_index = 0
 
-if os_type != os_android {instance_destroy()}
+if (room = rm_island || room = rm_menu) {image_index = 6}
 
 ini_open("AndroidControls.ini")
-global.abAx  = ini_read_real("A","X",640*2-(95*1.5))
-global.abAy  = ini_read_real("A","Y",360*2-(95*2.8))
+global.abAx  = ini_read_real("A","X",global.abAx)
+global.abAy  = ini_read_real("A","Y",global.abAy)
 global.abASx  = ini_read_real("A","Scale X",1)
 global.abASy  = ini_read_real("A","Scale Y",1)
 ini_close()
@@ -23,3 +23,4 @@ ssy = global.abASy
 global.abA = virtual_key_add(X,Y,Sx,Sy,global.kjump)
 
 //virtual_key_show(global.abA)
+if os_type != os_android {virtual_key_delete(global.abA);instance_destroy()}

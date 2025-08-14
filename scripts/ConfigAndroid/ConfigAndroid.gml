@@ -10,6 +10,10 @@ function ConfigAndroid()
 		oAndroidButtonRight.CONFIG = true
 		oAndroidButtonUp.CONFIG = true
 		oAndroidButtonDown.CONFIG = true
+		oAndroidButtonDash.CONFIG = true
+		oAndroidButtonLock.CONFIG = true
+		oAndroidButtonSwitch.CONFIG = true
+		oAndroidButtonEx.CONFIG = true
 	}
 	else
 	{
@@ -19,6 +23,10 @@ function ConfigAndroid()
 		oAndroidButtonRight.CONFIG = false
 		oAndroidButtonUp.CONFIG = false
 		oAndroidButtonDown.CONFIG = false
+		oAndroidButtonDash.CONFIG = false
+		oAndroidButtonLock.CONFIG = false
+		oAndroidButtonSwitch.CONFIG = false
+		oAndroidButtonEx.CONFIG = false
 	}
 	
 	

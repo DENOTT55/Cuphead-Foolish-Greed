@@ -8,5 +8,5 @@ itemID = id
 ssx = 0
 ssy = 0
 
-CreateAndroidControls()
+CreateAndroidControls(true)
 ConfigAndroid(true)

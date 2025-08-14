@@ -11,4 +11,4 @@ estado = 0
 parrydelay = 0
 inv = 60
 
-CreateAndroidControls()
+CreateAndroidControls(true)

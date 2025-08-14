@@ -1,6 +1,6 @@
 image_speed = 0;image_index = 1
 
-if os_type != os_android {instance_destroy()}
+
 
 ini_open("AndroidControls.ini")
 global.abRx  = ini_read_real("RIGHT","X",(95*2)+24)
@@ -25,4 +25,4 @@ global.abR = virtual_key_add(X,Y,Sx,Sy,global.kright)
 
 //virtual_key_show(global.abR)
 
-
+if os_type != os_android {virtual_key_delete(global.abR);instance_destroy()}

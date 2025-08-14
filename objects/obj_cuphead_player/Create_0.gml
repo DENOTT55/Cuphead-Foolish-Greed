@@ -2,7 +2,7 @@ coyote = 0
 shadow_distance = 160; // Distancia máxima a la que se dibujará la sombra debajo del jugador
 shadow_y = y;  // Inicializar si no existe
 
-CreateAndroidControls()
+CreateAndroidControls(true)
 
 // Variables del jugador
 

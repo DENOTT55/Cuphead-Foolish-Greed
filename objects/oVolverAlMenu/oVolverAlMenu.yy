@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tecla",
-    "path":"sprites/spr_tecla/spr_tecla.yy",
+    "name":"spr_tecla4",
+    "path":"sprites/spr_tecla4/spr_tecla4.yy",
   },
   "spriteMaskId":null,
   "visible":true,
