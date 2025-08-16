@@ -1,12 +1,12 @@
 if CONFIG = true
-{image_alpha = 1;x = X+(Sx/2);y = Y+(Sy/2)}
+{image_alpha = global.abAlpha;x = X+(Sx/2);y = Y+(Sy/2)}
 else if keyboard_check(global.kshoot)
 {
-    image_alpha = 1
+    image_alpha = global.abAlpha
 }
 else
 {
-    image_alpha = 0.5
+    image_alpha = global.abAlpha/2
 }
 
 if CONFIG = true

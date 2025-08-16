@@ -1,5 +1,5 @@
 draw_self()
 image_index = 0
 draw_set_halign(fa_center);draw_set_valign(fa_middle)
-draw_text(x,y-5,"Reset values")
+draw_text(x,y-5,"Resetear\nvalores")
 draw_set_halign(fa_left);draw_set_valign(fa_top)

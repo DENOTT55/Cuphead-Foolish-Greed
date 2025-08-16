@@ -60,4 +60,8 @@ oAndroidButtonSwitch.Y = 15
 oAndroidButtonSwitch.ssx = 1
 oAndroidButtonSwitch.ssy = 1
 
+global.abAlpha = 0.8
+
 room_restart()
+
+audio_play_sound(snd_cuphead_parry,10,false,0.5,0,random_range(0.7,1.1))

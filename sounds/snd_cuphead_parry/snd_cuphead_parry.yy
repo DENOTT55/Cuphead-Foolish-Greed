@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.123492,
+  "duration":1.1234921,
   "name":"snd_cuphead_parry",
   "parent":{
     "name":"Sonidos",

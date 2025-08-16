@@ -1,37 +1,37 @@
 if show_weapon == 1{
-draw_sprite_ext(spr_weapons_slots,actual_weapon[2],60,620,1,1,0,c_black,1)
-draw_sprite(spr_weapons_slots,actual_weapon[2],60,618)}
+draw_sprite_ext(spr_weapons_slots,actual_weapon[2],weaponX,weaponY,1,1,0,c_black,1)
+draw_sprite(spr_weapons_slots,actual_weapon[2],weaponX,weaponY-2)}
 
 if enable == 1{
 draw_sprite(spr_hpbar,vida,vidaX,vidaY)
 
 if cards == 1{
-	draw_sprite(spr_card,0,100+20,646)
+	draw_sprite(spr_card,0,cardsX[0],cardsY)
 }
 
 if cards == 2{
-	draw_sprite(spr_card,0,100+20,646)
-	draw_sprite(spr_card,0,125+20,646)
+	draw_sprite(spr_card,0,cardsX[0],cardsY)
+	draw_sprite(spr_card,0,cardsX[1],cardsY)
 }
 
 if cards == 3{
-	draw_sprite(spr_card,0,100+20,646)
-	draw_sprite(spr_card,0,125+20,646)
-	draw_sprite(spr_card,0,150+20,646)
+	draw_sprite(spr_card,0,cardsX[0],cardsY)
+	draw_sprite(spr_card,0,cardsX[1],cardsY)
+	draw_sprite(spr_card,0,cardsX[2],cardsY)
 }
 
 if cards == 4{
-	draw_sprite(spr_card,0,100+20,646)
-	draw_sprite(spr_card,0,125+20,646)
-	draw_sprite(spr_card,0,150+20,646)
-	draw_sprite(spr_card,0,175+20,646)
+	draw_sprite(spr_card,0,cardsX[0],cardsY)
+	draw_sprite(spr_card,0,cardsX[1],cardsY)
+	draw_sprite(spr_card,0,cardsX[2],cardsY)
+	draw_sprite(spr_card,0,cardsX[3],cardsY)
 }
 
 if cards == 5{
-	draw_sprite(spr_card,1,100+20,646)
-	draw_sprite(spr_card,1,125+20,646)
-	draw_sprite(spr_card,1,150+20,646)
-	draw_sprite(spr_card,1,175+20,646)
-	draw_sprite(spr_card,1,200+20,646)
+	draw_sprite(spr_card,1,cardsX[0],cardsY)
+	draw_sprite(spr_card,1,cardsX[1],cardsY)
+	draw_sprite(spr_card,1,cardsX[2],cardsY)
+	draw_sprite(spr_card,1,cardsX[3],cardsY)
+	draw_sprite(spr_card,1,cardsX[4],cardsY)
 }
 }
