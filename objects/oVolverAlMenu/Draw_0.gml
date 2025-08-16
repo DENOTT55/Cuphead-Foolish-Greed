@@ -14,3 +14,10 @@ draw_text((room_width/2),oScaleY.y, "Escala Y: "+string(itemID.ssy))
 draw_text((room_width/2),oAlpha.y, "Alpha: "+string(global.abAlpha))
 
 draw_set_halign(fa_left);draw_set_valign(fa_top)
+
+if (itemID.flecha = true)
+{index = 1;indexR = itemID.image_angle;sprite = sButton_1}
+else
+{index = 8;indexR = 0;sprite = sButton}
+
+draw_sprite_ext(sprite,index,itemID.X+(itemID.Sx/2),itemID.Y+(itemID.Sx/2),itemID.ssx*1.2,itemID.ssy*1.2,indexR,c_white,1)

@@ -11,6 +11,8 @@ global.abDASHSy  = ini_read_real("DASH","Scale Y",1)
 ini_close()
 
 CONFIG = false
+flecha = false
+live = true
 
 X = global.abDASHx
 Y = global.abDASHy

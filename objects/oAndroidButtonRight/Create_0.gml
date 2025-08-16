@@ -10,8 +10,11 @@ global.abRSy  = ini_read_real("RIGHT","Scale Y",1)
 ini_close()
 
 image_angle = 270
+image_speed = 0;image_index = 0
 
 CONFIG = false
+flecha = true
+live = true
 
 X = global.abRx
 Y = global.abRy

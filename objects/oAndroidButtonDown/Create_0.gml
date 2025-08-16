@@ -10,8 +10,11 @@ global.abDSy  = ini_read_real("DOWN","Scale Y",1)
 ini_close()
 
 image_angle = 180
+image_speed = 0;image_index = 0
 
 CONFIG = false
+flecha = true
+live = true
 
 X = global.abDx
 Y = global.abDy

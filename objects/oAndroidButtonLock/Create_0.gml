@@ -11,6 +11,8 @@ global.abLOCKSy  = ini_read_real("LOCK","Scale Y",1)
 ini_close()
 
 CONFIG = false
+flecha = false
+live = true
 
 X = global.abLOCKx
 Y = global.abLOCKy

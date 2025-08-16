@@ -11,6 +11,8 @@ global.abEXSy  = ini_read_real("EX","Scale Y",1)
 ini_close()
 
 CONFIG = false
+flecha = false
+live = true
 
 X = global.abEXx
 Y = global.abEXy

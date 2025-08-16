@@ -12,6 +12,7 @@ global.abBSy  = ini_read_real("B","Scale Y",1)
 ini_close()
 
 CONFIG = false
+flecha = false
 
 X = global.abBx
 Y = global.abBy

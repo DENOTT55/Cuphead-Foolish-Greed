@@ -11,6 +11,8 @@ global.abSWITCHSy  = ini_read_real("SWITCH","Scale Y",1)
 ini_close()
 
 CONFIG = false
+flecha = false
+live = true
 
 X = global.abSWITCHx
 Y = global.abSWITCHy

@@ -10,6 +10,7 @@ global.abASy  = ini_read_real("A","Scale Y",1)
 ini_close()
 
 CONFIG = false
+flecha = false
 
 X = global.abAx
 Y = global.abAy

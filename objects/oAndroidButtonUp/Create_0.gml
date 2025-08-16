@@ -10,8 +10,11 @@ global.abUSy  = ini_read_real("UP","Scale Y",1)
 ini_close()
 
 image_angle = 0
+image_speed = 0;image_index = 0
 
 CONFIG = false
+flecha = true
+live = true
 
 X = global.abUx
 Y = global.abUy

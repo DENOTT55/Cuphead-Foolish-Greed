@@ -9,6 +9,11 @@ else
     image_alpha = global.abAlpha/2
 }
 
+if live = false
+{
+    image_alpha = 0
+}
+
 if CONFIG = true
 {
 	image_xscale = lerp(image_xscale,ssx,0.3)

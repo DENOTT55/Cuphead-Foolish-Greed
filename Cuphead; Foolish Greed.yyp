@@ -261,6 +261,7 @@
     {"id":{"name":"rm_wendy_the_wendingo","path":"rooms/rm_wendy_the_wendingo/rm_wendy_the_wendingo.yy",},},
     {"id":{"name":"ConfigAndroid","path":"scripts/ConfigAndroid/ConfigAndroid.yy",},},
     {"id":{"name":"CreateAndroidControls","path":"scripts/CreateAndroidControls/CreateAndroidControls.yy",},},
+    {"id":{"name":"CupheadIsDeathControls","path":"scripts/CupheadIsDeathControls/CupheadIsDeathControls.yy",},},
     {"id":{"name":"SetControlsANDROID","path":"scripts/SetControlsANDROID/SetControlsANDROID.yy",},},
     {"id":{"name":"cuphead","path":"sounds/cuphead/cuphead.yy",},},
     {"id":{"name":"foolish_greed","path":"sounds/foolish_greed/foolish_greed.yy",},},
