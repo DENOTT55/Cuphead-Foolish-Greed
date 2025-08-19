@@ -72,7 +72,7 @@ if vida > 2 {
 	hspeed = 0
 	audio_play_sound(snd_cuphead_die,11,false,1,0,random_range(0.8,1.2))
 	instance_create_layer(x,y,layer,obj_cup_soul)
-	CupheadIsDeathControls()
+	if os_type == os_android {CupheadIsDeathControls()}
 	global.muertes += 1
 }}
 

@@ -9,7 +9,7 @@ shotting = 0
 shotdelay = 0
 estado = 0
 parrydelay = 0
-inv = 60
+inv = 75 //Tiempo de invulnerabilidad (Con charms debe poder alargarse)
 
 
 if os_type = os_android

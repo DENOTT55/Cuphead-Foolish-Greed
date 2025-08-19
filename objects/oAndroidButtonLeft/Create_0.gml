@@ -28,4 +28,4 @@ global.abL = virtual_key_add(X,Y,Sx,Sy,global.kleft)
 
 //virtual_key_show(global.abL)
 
-//if os_type != os_android {virtual_key_delete(global.abL);instance_destroy()}
+if os_type != os_android {virtual_key_delete(global.abL);instance_destroy()}

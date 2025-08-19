@@ -5,3 +5,4 @@ base_scale = 1; // The default scale of the sprite
 act = 0
 image_speed = 0
 image_index = 0
+

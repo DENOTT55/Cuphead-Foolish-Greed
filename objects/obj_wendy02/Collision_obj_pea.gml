@@ -1,9 +1,10 @@
+if act != 7{
 hp -= 1
 image_alpha = 0.9
-alarm_set(11,4)
-if act != 6{
+alarm_set(11,4)}
+if act != 9{
 if hp < 1 {
-	act = 6
+	act = 9
 	sprite_index = spr_wendy2_die
 	image_speed = 1
 	image_index = 0

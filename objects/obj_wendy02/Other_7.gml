@@ -13,3 +13,9 @@ if act == 4{
 	act = 5
 	alarm_set(4,90)
 }
+
+if act == 6{
+	act = 7
+	sprite_index = spr_wendy2_idle
+	alarm_set(8,30)
+}
