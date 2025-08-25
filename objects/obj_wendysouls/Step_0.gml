@@ -9,7 +9,7 @@ if hspeed < 0{
 
 if act == 4{
 	hspeed -= 0.1	
-	if x < 0{	instance_destroy()}
+	if x < -56{	instance_destroy()}
 }
 
 image_yscale = base_scale + sin(current_time * bounce_speed) * bounce_strength;

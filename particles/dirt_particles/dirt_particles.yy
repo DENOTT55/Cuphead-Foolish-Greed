@@ -14,7 +14,7 @@
   "name":"dirt_particles",
   "parent":{
     "name":"Particle Systems",
-    "path":"folders/Particle Systems.yy",
+    "path":"folders/Objetos/Particle Systems.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

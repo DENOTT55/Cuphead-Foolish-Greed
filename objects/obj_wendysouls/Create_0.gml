@@ -1,7 +1,7 @@
 y = random_range(48,324)
 x = 680
 hspeed = random_range(-7,-5)
-hp = 8
+hp = 5
 act = 0
 
 bounce_speed = 0.004; // How fast the sprite scales

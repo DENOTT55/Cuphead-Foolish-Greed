@@ -1,5 +1,5 @@
 image_speed = 1
-hp = 60
+hp = 90
 act = 0
 die = 0
 

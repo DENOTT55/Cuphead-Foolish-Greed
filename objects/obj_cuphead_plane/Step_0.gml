@@ -7,8 +7,9 @@ if(hInput != 0 or vInput != 0){
 	dir = point_direction(0,0,hInput,vInput);
 		x += hInput * spd;
 		y += vInput * spd;
-}
+}}
 
+//MOVIMIENTO NORMAL
 if estado == 0{
 if keyboard_check(global.kup) or keyboard_check(global.kdown){		
 if dir > 35 && dir < 145 {
@@ -28,6 +29,24 @@ else	{
 }
 }
 
+//MOVIMIENTO EN CHIQUITO
+if estado == 2{
+if keyboard_check(global.kup) or keyboard_check(global.kdown){		
+if dir > 35 && dir < 145 {
+	if image_angle < 10{
+		image_angle += 2	
+	}
+}		
+else {
+if dir > 215 && dir < 325 {
+	if image_angle > -6{
+		image_angle -= 2
+	}}
+}}
+	else{
+	if image_angle > 0{image_angle -= 1}
+	if image_angle < 0{image_angle += 1}}}
+
 if parrydelay == 0{
 if estado == 0{
 	if keyboard_check_pressed(global.kjump){
@@ -46,9 +65,9 @@ if cards >= 1{
 if keyboard_check_pressed(global.kex){
 	cards -= 1
 	estado = 1
-	sprite_index = spr_cplane_parry
-	instance_create_depth(x+16,y,-1,obj_plane_pea_1)
-}}}}}
+	sprite_index = spr_cplane_parry_1
+	alarm_set(2,20)
+}}}}
 
 if enable == 1{
 if vida > 2 {
@@ -64,6 +83,25 @@ if vida > 2 {
 	if os_type == os_android {CupheadIsDeathControls()}
 	global.muertes += 1
 
+}}
+
+if estado == 0{
+if keyboard_check(global.kdash){
+	estado = 2
+	sprite_index = spr_cplane_3
+	spd = 5
+	instance_create_depth(x,y,depth-1,obj_miniplane_particle)
+}
+}
+
+if estado == 2{
+if keyboard_check_released(global.kdash){
+	sprite_index = spr_cplane
+	estado = 0
+	spd = 3.5
+	image_angle = 0
+	image_xscale = 0.5
+	image_yscale = 0.5
 }}
 
 if enable == 0 {

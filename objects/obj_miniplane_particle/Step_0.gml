@@ -1,0 +1,4 @@
+image_yscale = base_scale + sin(current_time * bounce_speed) * bounce_strength;
+image_xscale = base_scale + cos(current_time * bounce_speed) * bounce_strength;
+x = obj_cuphead_plane.x
+y = obj_cuphead_plane.y
