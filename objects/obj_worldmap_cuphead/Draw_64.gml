@@ -19,15 +19,6 @@ draw_sprite_ext(spr_weapons_slots,global.weapon02[2],+564,equipmenuy+186,2,2,equ
 if equipmenu == 2{ //Menu Armas 1
 draw_sprite_ext(spr_equip_menu_extras,0,+640,equipmenuy,2,2,equipmenurot,c_white,1)
 draw_sprite_ext(spr_empty_slots,0,+640,equipmenuy,2,2,equipmenurot,c_white,1)
-for (var i = 0; i < ds_list_size(global.unlocked_weapons); i++) {
-	var weapon_id = global.unlocked_weapons[| i];
-	var frame = global.armas[weapon_id][2]; // frame del HUD
-
-    var pos_x = 430 + (i mod 4) * 140; // posición en la grilla
-    var pos_y = 288 + floor(i / 4) * 136;
-
-    draw_sprite_ext(spr_weapons_slots, frame, pos_x, pos_y,2,2,0,c_white,1);
-    }
 // Dibuja el selector por encima
 var sel_index = selector_y * grid_cols + selector_x;
     var sel_x = 430 + selector_x * 140;
@@ -38,15 +29,6 @@ var sel_index = selector_y * grid_cols + selector_x;
 if equipmenu == 3{ //Menu Armas 2
 draw_sprite_ext(spr_equip_menu_extras,0,+640,equipmenuy,2,2,equipmenurot,c_white,1)
 draw_sprite_ext(spr_empty_slots,0,+640,equipmenuy,2,2,equipmenurot,c_white,1)
-for (var i = 0; i < ds_list_size(global.unlocked_weapons); i++) {
-	var weapon_id = global.unlocked_weapons[| i];
-	var frame = global.armas[weapon_id][2]; // frame del HUD
-
-    var pos_x = 430 + (i mod 4) * 140; // posición en la grilla
-    var pos_y = 288 + floor(i / 4) * 136;
-
-    draw_sprite_ext(spr_weapons_slots, frame, pos_x, pos_y,2,2,0,c_white,1);
-    }
 // Dibuja el selector por encima
 var sel_index = selector_y * grid_cols + selector_x;
     var sel_x = 430 + selector_x * 140;
@@ -62,4 +44,9 @@ draw_sprite_ext(spr_empty_slots,1,+640,equipmenuy,2,2,equipmenurot,c_white,1)}
 
 if equipmenu == 5{ //Menu Charms
 draw_sprite_ext(spr_equip_menu_extras,2,+640,equipmenuy,2,2,equipmenurot,c_white,1)
-draw_sprite_ext(spr_empty_slots,2,+640,equipmenuy,2,2,equipmenurot,c_white,1)}
+draw_sprite_ext(spr_empty_slots,2,+640,equipmenuy,2,2,equipmenurot,c_white,1)
+var sel_index = selector_y * grid_cols + selector_x;
+    var sel_x = 430 + selector_x * 140;
+    var sel_y = 288 + selector_y * 136;
+    draw_sprite_ext(spr_select_mark, 0, sel_x, sel_y,2,2,0,c_white,1);
+}

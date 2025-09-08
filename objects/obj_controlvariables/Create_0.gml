@@ -57,51 +57,15 @@ global.kweapon = ini_read_string("Player","kweapon",ord("W"))
 SetControlsANDROID()
 
 //LISTA DE ARMAS
-//empty = [0, 10, 0, 0]
 global.armas = [
 	[obj_pea, 10, 0, obj_pea_ex],          // ID 0 Peashooter
 	[obj_spikepea, 30, 1, obj_spikepea_ex] // ID 1 Mini Cactus
+	//[disparo principal, cadencia, fotograma del icono, disparo especial] // ID 2 
 ];
 
 //VARIABLES ARMAS, CHARMS, SUPER
-global.weapon01 = global.armas[0]
-global.weapon02 = global.armas[0]
+global.weapon01 = global.armas[0] //Aquí se pone el ID del arma
+global.weapon02 = global.armas[0] //Aquí se pone el ID del arma
 global.charm = [0, 10, 0, 0]
 global.super = [0, 10, 0, 0]
 ini_close()
-
-
-global.unlocked_weapons = [];
-
-if (file_exists("Save.ini")) {
-    ini_open("Save.ini");
-    var list = ini_read_string("Player", "Weapons", "0"); // por defecto solo el Peashooter
-    global.unlocked_weapons = ds_list_create();
-    var arr = string_split(list, ",");
-    for (var i = 0; i < array_length(arr); i++) {
-        ds_list_add(global.unlocked_weapons, real(arr[i]));
-    }
-    ini_close();
-} else {
-    global.unlocked_weapons = ds_list_create();
-    ds_list_add(global.unlocked_weapons, 0); // Peashooter siempre disponible
-}
-
-//FUNCTION DESBLOQUEAR WEAPON
-function unlock_weapon(_id) {
-    if (!ds_list_find_index(global.unlocked_weapons, _id)) {
-        ds_list_add(global.unlocked_weapons, _id);
-        save_weapons(); // Guardamos el progreso
-    }
-}
-//FUNCTION DE GUARDAR ARMAS
-function save_weapons() {
-    ini_open("save.ini");
-    var str = "";
-    for (var i = 0; i < ds_list_size(global.unlocked_weapons); i++) {
-        str += string(global.unlocked_weapons[| i]);
-        if (i < ds_list_size(global.unlocked_weapons) - 1) str += ",";
-    }
-    ini_write_string("Player", "Weapons", str);
-    ini_close();
-}

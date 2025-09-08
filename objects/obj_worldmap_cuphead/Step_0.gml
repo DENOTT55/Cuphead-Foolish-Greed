@@ -100,7 +100,7 @@ if equipmenu == 1{
 }}
 
 // Cooldown para evitar doble input rápido
-if equipmenu == 2 or equipmenu == 3 {
+if equipmenu == 2 or equipmenu == 3 or equipmenu == 5{
 if (input_delay > 0) {
     input_delay -= 1;
 } else {
@@ -127,19 +127,4 @@ if (input_delay > 0) {
     }
 }	// Cálculo del índice del arma en la lista
 index = selector_y * grid_cols + selector_x;
-}
-
-if (keyboard_check_pressed(global.kjump)) {
-    // Verifica si ese índice existe en el array de armas desbloqueadas
-    if (index < array_length(global.unlocked_weapons)) {
-        var arma_id = global.unlocked_weapons[index];
-
-        // Asignar dependiendo del menú actual
-        if (equipmenu == 2) {
-            global.weapon01 = arma_id;
-        } else 
-		if (equipmenu == 3){
-            global.weapon02 = arma_id;
-        }
-    }
 }

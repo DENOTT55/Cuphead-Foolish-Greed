@@ -54,5 +54,5 @@
     "path":"sprites/spr_overworld_cuphead_down/spr_overworld_cuphead_down.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
