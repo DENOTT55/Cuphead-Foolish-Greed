@@ -23,7 +23,6 @@ ini_write_real("Player","klock",ord("D"))
 ini_write_real("Player","kex",ord("V"))
 ini_write_real("Player","kdash",vk_shift)
 ini_write_real("Player","kweapon",ord("W"))
-
 }
 //
 //
