@@ -63,13 +63,41 @@ global.armas = [
 	[obj_spikepea, 30, 1, obj_spikepea_ex] // ID 1 Mini Cactus
 ];
 
+ini_open("SaveWeapons.ini")
+global.we01 = ini_read_real("active Weapon", "1", 0)
+global.we02 = ini_read_real("active Weapon", "2", 0)
+ini_close()
+
 //VARIABLES ARMAS, CHARMS, SUPER
-global.weapon01 = global.armas[0]
-global.weapon02 = global.armas[0]
+global.weapon01 = global.armas[global.we01]
+global.weapon02 = global.armas[global.we02]
 global.charm = [0, 10, 0, 0]
 global.super = [0, 10, 0, 0]
 ini_close()
 
+global.AVALIBLEWEAPONS = [
+["Weapons", "Peashooter", 1],
+["Weapons", "Mini Cactus", 0],
+["Weapons", "example", 0],
+["Weapons", "example", 0],
+["Weapons", "example", 0],
+["Weapons", "example", 0],
+["Weapons", "example", 0],
+["Weapons", "example", 0],
+];
+
+ini_open("SaveWeapons.ini")
+//ARMAS
+
+global.AVALIBLEWEAPONS[0,2] = ini_read_real("Weapons", "Peashooter", 1)
+global.AVALIBLEWEAPONS[1,2] = ini_read_real("Weapons", "Mini Cactus", 0)
+global.AVALIBLEWEAPONS[2,2] = ini_read_real("Weapons", "example", 0)
+global.AVALIBLEWEAPONS[3,2] = ini_read_real("Weapons", "example", 0)
+global.AVALIBLEWEAPONS[4,2] = ini_read_real("Weapons", "example", 0)
+global.AVALIBLEWEAPONS[5,2] = ini_read_real("Weapons", "example", 0)
+global.AVALIBLEWEAPONS[6,2] = ini_read_real("Weapons", "example", 0)
+global.AVALIBLEWEAPONS[7,2] = ini_read_real("Weapons", "example", 0)
+ini_close()
 
 global.unlocked_weapons = [];
 
@@ -105,3 +133,4 @@ function save_weapons() {
     ini_write_string("Player", "Weapons", str);
     ini_close();
 }
+

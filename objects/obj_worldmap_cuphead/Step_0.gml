@@ -130,6 +130,31 @@ index = selector_y * grid_cols + selector_x;
 }
 
 if (keyboard_check_pressed(global.kjump)) {
+    
+    if global.AVALIBLEWEAPONS[index,2] = 1 {
+        var arma_id = index;
+		var arma1_old = global.weapon01
+		var arma2_old = global.weapon02
+
+        // Asignar dependiendo del menú actual
+        if (equipmenu == 2) {
+            global.weapon01 = global.armas[arma_id];
+			if global.weapon01 = arma2_old {global.weapon02 = arma1_old}
+			ini_open("SaveWeapons.ini")
+			ini_write_real("active Weapon", "1", arma_id)
+			ini_close()
+        } else 
+		if (equipmenu == 3){
+            global.weapon02 = global.armas[arma_id];
+			if global.weapon02 = arma1_old {global.weapon01 = arma2_old}
+			ini_open("SaveWeapons.ini")
+			ini_write_real("active Weapon", "2", arma_id)
+			ini_close()
+        }
+    }
+}
+/*
+if (keyboard_check_pressed(global.kjump)) {
     // Verifica si ese índice existe en el array de armas desbloqueadas
     if (index < array_length(global.unlocked_weapons)) {
         var arma_id = global.unlocked_weapons[index];
@@ -143,3 +168,4 @@ if (keyboard_check_pressed(global.kjump)) {
         }
     }
 }
+*/
