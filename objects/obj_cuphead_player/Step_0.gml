@@ -73,7 +73,10 @@ if vida > 2 {
 	audio_play_sound(snd_cuphead_die,11,false,1,0,random_range(0.8,1.2))
 	instance_create_layer(x,y,layer,obj_cup_soul)
 	if os_type == os_android {CupheadIsDeathControls()}
-	global.muertes += 1
+	global.muertes++
+	ini_open("Save.ini")
+	ini_write_real("Player","muertes",global.muertes)
+	ini_close()
 }}
 
 if vida > 2{

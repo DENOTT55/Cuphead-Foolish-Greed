@@ -19,3 +19,10 @@ if(y != obj_worldmap_cuphead.y)
 {
 	y += (obj_worldmap_cuphead.y - y) * camspeed;	
 }}
+
+ini_open("SaveArchivements.ini")
+	var actualDeaths = ini_read_real("Archivements","Ve a tocar pasto...",0)
+ini_close()
+
+if global.muertes >= 5 and actualDeaths = 0
+{UnlockArchivement(2,"Ve a tocar pasto...","Consigue mas de 1000 muertes",1)}
