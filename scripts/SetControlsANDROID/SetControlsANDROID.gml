@@ -66,6 +66,7 @@ function SetControlsANDROID() {
 	global.abAlpha  = ini_read_real("BUTTONS","ALPHA",0.8)
 	
 	//global.joystickAlpha  = ini_read_real("STICK","ALPHA",0.8)
+	global.JOYSTICKACTIVE = ini_read_real("STICK","ACTIVE",false)
 
 	//----------------------------
 	ini_close()

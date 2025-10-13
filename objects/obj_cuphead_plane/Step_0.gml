@@ -2,11 +2,23 @@ if enable == 1 {
 hInput = keyboard_check(global.kright) - keyboard_check(global.kleft);
 vInput = keyboard_check(global.kdown) - keyboard_check(global.kup);
 
+if global.JOYSTICKACTIVE = true
+{
+	if oAndroidJoystick.joyMoveX < -30 {hInput = -1}
+	if oAndroidJoystick.joyMoveX > 30  {hInput = 1}
+
+	if oAndroidJoystick.joyMoveY < -30 {vInput = -1}
+	if oAndroidJoystick.joyMoveY > 30  {vInput = 1}
+}
 
 if(hInput != 0 or vInput != 0){
 	dir = point_direction(0,0,hInput,vInput);
+	if (place_free(x+(hInput*spd), y+(vInput*spd)))
+	{
 		x += hInput * spd;
 		y += vInput * spd;
+	}
+		
 }}
 
 //MOVIMIENTO NORMAL
@@ -94,6 +106,15 @@ if keyboard_check(global.kdash){
 }
 }
 
+if !(place_free(x+spd, y))
+	{x -= spd;}
+	if !(place_free(x, y+spd))
+	{y -= spd;}
+	if !(place_free(x-spd, y))
+	{x += spd;}
+	if !(place_free(x, y-spd))
+	{y += spd;}
+
 if estado == 2{
 if keyboard_check_released(global.kdash){
 	sprite_index = spr_cplane
@@ -102,6 +123,8 @@ if keyboard_check_released(global.kdash){
 	image_angle = 0
 	image_xscale = 0.5
 	image_yscale = 0.5
+	
+	
 }}
 
 if enable == 0 {

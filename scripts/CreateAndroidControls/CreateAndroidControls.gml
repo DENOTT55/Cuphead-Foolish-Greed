@@ -1,6 +1,7 @@
 /// @description CreateAndroidControls()
 /// @param {bool} allControls
-function CreateAndroidControls(argument0 = false) 
+/// @param {bool} Joystick
+function CreateAndroidControls(argument0 = false,argument1 = false) 
 {
 	//if os_type != os_android {exit}
 	
@@ -21,6 +22,19 @@ function CreateAndroidControls(argument0 = false)
 		instance_create_layer(-300, -300, "AndroidControls", oAndroidButtonDash);
 		instance_create_layer(-300, -300, "AndroidControls", oAndroidButtonSwitch);
 		//instance_create_layer(-300, -300, "AndroidControls", oAndroidButtonPause);
+	}
+	
+	if argument1 = true
+	{
+		instance_create_layer(-300, -300, "AndroidControls", oAndroidJoystick);
+		virtual_key_delete(global.abL)
+		virtual_key_delete(global.abR)
+		virtual_key_delete(global.abU)
+		virtual_key_delete(global.abD)
+		instance_destroy(oAndroidButtonLeft)
+		instance_destroy(oAndroidButtonRight)
+		instance_destroy(oAndroidButtonUp)
+		instance_destroy(oAndroidButtonDown)
 	}
 	
 }

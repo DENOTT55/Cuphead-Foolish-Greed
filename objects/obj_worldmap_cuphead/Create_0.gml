@@ -9,7 +9,7 @@ equipmenuy = -320 // Posición del menu
 equipmenurot = 16 // Rotación del menu
 equipinmark = 0 // Posición de la marca de selección en la pantalla principal del menu
 
-CreateAndroidControls()
+CreateAndroidControls(0,global.JOYSTICKACTIVE)
 
 // Posición del selector (columna y fila)
 selector_x = 0;

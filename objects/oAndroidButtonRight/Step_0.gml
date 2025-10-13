@@ -1,5 +1,12 @@
 if CONFIG = true
-{image_alpha = global.abAlpha;x = X+(Sx/2);y = Y+(Sy/2)}
+{
+	if global.JOYSTICKACTIVE = false
+	{image_alpha = global.abAlpha;}
+	else
+	{image_alpha = 0;}
+	
+	x = X+(Sx/2);y = Y+(Sy/2)
+}
 else if keyboard_check(global.kright)
 {
     image_alpha = global.abAlpha

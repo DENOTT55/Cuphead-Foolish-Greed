@@ -6,6 +6,15 @@ if enable == 1{
 hInput = keyboard_check(global.kright) - keyboard_check(global.kleft);
 vInput = keyboard_check(global.kdown) - keyboard_check(global.kup);
 
+if global.JOYSTICKACTIVE = true
+{
+	if oAndroidJoystick.joyMoveX < -30 {hInput = -1}
+	if oAndroidJoystick.joyMoveX > 30  {hInput = 1}
+
+	if oAndroidJoystick.joyMoveY < -30 {vInput = -1}
+	if oAndroidJoystick.joyMoveY > 30  {vInput = 1}
+}
+
 if(hInput != 0 or vInput != 0){
 	if smoke == 0{
 	instance_create_depth(x,y,depth,obj_walk_smoke_particle_t)
@@ -83,6 +92,25 @@ if equipmenu > 1{
 	index = 0
 }}
 
+if global.JOYSTICKACTIVE = true
+{
+	if oAndroidJoystick.joyMoveX > 30 {
+	if equipmenu == 1{
+		if equipinmark < 3{
+			equipinmark += 1
+		audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
+		}	
+	}}
+
+	if oAndroidJoystick.joyMoveX < -30 {
+	if equipmenu == 1{
+		if equipinmark > 0{
+			equipinmark -= 1
+		audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
+		}	
+	}}
+}
+
 if keyboard_check_pressed(global.kright){
 if equipmenu == 1{
 	if equipinmark < 3{
@@ -91,7 +119,7 @@ if equipmenu == 1{
 	}	
 }}
 
-if keyboard_check_pressed(global.kleft){
+if keyboard_check_pressed(global.kleft) {
 if equipmenu == 1{
 	if equipinmark > 0{
 		equipinmark -= 1
@@ -105,26 +133,50 @@ if (input_delay > 0) {
     input_delay -= 1;
 } else {
     // Movimiento en cuadrícula
-    if (keyboard_check_pressed(global.kleft)) {
+    if (keyboard_check_pressed(global.kleft)){
         selector_x = max(selector_x - 1, 0);
         input_delay = 6;
 		audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
     }
-    if (keyboard_check_pressed(global.kright)) {
+    if (keyboard_check_pressed(global.kright)){
         selector_x = min(selector_x + 1, grid_cols - 1);
         input_delay = 6;
 		audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
     }
-    if (keyboard_check_pressed(global.kup)) {
+    if (keyboard_check_pressed(global.kup)){
         selector_y = max(selector_y - 1, 0);
         input_delay = 6;
 		audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
     }
-    if (keyboard_check_pressed(global.kdown)) {
+    if (keyboard_check_pressed(global.kdown)){
         selector_y = min(selector_y + 1, grid_rows - 1);
         input_delay = 6;
 		audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
     }
+	
+	if global.JOYSTICKACTIVE = true
+	{
+		if (oAndroidJoystick.joyMoveX < -30) {
+	        selector_x = max(selector_x - 1, 0);
+	        input_delay = 6;
+			//audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
+	    }
+	    if (oAndroidJoystick.joyMoveX > 30) {
+	        selector_x = min(selector_x + 1, grid_cols - 1);
+	        input_delay = 6;
+			//audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
+	    }
+	    if (oAndroidJoystick.joyMoveY < -30) {
+	        selector_y = max(selector_y - 1, 0);
+	        input_delay = 6;
+			//audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
+	    }
+	    if (oAndroidJoystick.joyMoveY > 30) {
+	        selector_y = min(selector_y + 1, grid_rows - 1);
+	        input_delay = 6;
+			//audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
+	    }
+	}
 }	// Cálculo del índice del arma en la lista
 index = selector_y * grid_cols + selector_x;
 }

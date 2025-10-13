@@ -37,5 +37,7 @@ else
 	weaponY = 620
 }
 
+hInput = 0
+vInput = 0
 
-CreateAndroidControls(true)
+CreateAndroidControls(true,global.JOYSTICKACTIVE)

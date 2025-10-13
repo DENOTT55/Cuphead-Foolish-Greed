@@ -38,6 +38,66 @@ if keyboard_check(global.kright) && keyboard_check(global.kdown)
     global.aim = 325
 }}
 
+
+#region ///Android Apuntado
+
+if global.JOYSTICKACTIVE = true
+{
+
+	if oAndroidJoystick.joyMoveY > -20 and oAndroidJoystick.joyMoveY < 20 and oAndroidJoystick.joyMoveX < -29
+	{
+		global.aim = 180
+	}
+	
+	if oAndroidJoystick.joyMoveY > -20 and oAndroidJoystick.joyMoveY < 20 and oAndroidJoystick.joyMoveX > 29
+	{
+		global.aim = 0
+	}
+
+	if estado != 7
+	{
+		if oAndroidJoystick.joyMoveX > -29 and oAndroidJoystick.joyMoveX < 29
+		{
+			global.aim = 90
+		}
+		
+		if oAndroidJoystick.joyMoveY < -20 and oAndroidJoystick.joyMoveY >= -45 and oAndroidJoystick.joyMoveX < -29
+		{
+			global.aim = 150
+		}
+		
+		if oAndroidJoystick.joyMoveY < -20 and oAndroidJoystick.joyMoveY >= -45 and oAndroidJoystick.joyMoveX > 29
+		{
+			global.aim = 30
+		}
+		
+		if oAndroidJoystick.joyMoveY > 20 and oAndroidJoystick.joyMoveY <= 45 and oAndroidJoystick.joyMoveX < -29
+		{
+			global.aim = 215
+		}
+		
+		if oAndroidJoystick.joyMoveY > 20 and oAndroidJoystick.joyMoveY <= 45 and oAndroidJoystick.joyMoveX > 29
+		{
+			global.aim = 325
+		}
+	}
+	
+	if oAndroidJoystick.joyMoveX = 0
+	{
+		if image_xscale = 1
+		{
+		global.aim = 0	
+		}	else	{
+		global.aim = 180	
+		}
+	}
+}
+
+
+
+#endregion
+
+
 // Control Gravedad
 }
 
