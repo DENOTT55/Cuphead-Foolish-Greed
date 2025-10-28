@@ -3,6 +3,9 @@ image_alpha = 0
 image_speed = 1
 skin = spr_runas_cursor;
 
+pauseScale = 0
+pauseScaleTo = 0
+
 runeMenu = false
 codeExist = false
 

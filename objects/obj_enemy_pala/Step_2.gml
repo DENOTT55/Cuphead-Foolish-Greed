@@ -1,3 +1,5 @@
+if global.PAUSE = true {x = xprevious;gravity = 0;vspeed = 0;exit}
+
 if (!place_meeting(x, y + 1, obj_collision))
     {
         gravity = 0.2

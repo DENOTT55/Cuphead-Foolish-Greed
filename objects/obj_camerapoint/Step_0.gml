@@ -1,3 +1,18 @@
+
+if keyboard_check_pressed(global.kpause)
+{
+	switch (global.PAUSE)
+	{
+	    case true:
+	        global.PAUSE = false
+	    break;
+		
+		case false:
+	        global.PAUSE = true
+	    break;
+	}
+}
+
 if instance_exists(obj_cuphead_player) {
 if(x != obj_cuphead_player.x)
 {

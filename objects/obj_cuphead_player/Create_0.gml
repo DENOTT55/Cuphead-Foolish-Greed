@@ -13,6 +13,9 @@ image_speed = 0.15;
 global.aim = 0; // Direccion apuntado
 velocidad = 4; //Velocidad del Jugador
 vida = 0; //Vida (Duh) -- El "Duh" XDDDD
+storeVspeed = 0 //Guarda la velocidad vertical al pausar
+
+song = 0
 
 if os_type = os_android
 {

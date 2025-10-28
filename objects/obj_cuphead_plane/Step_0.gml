@@ -2,7 +2,7 @@ if enable == 1 {
 hInput = keyboard_check(global.kright) - keyboard_check(global.kleft);
 vInput = keyboard_check(global.kdown) - keyboard_check(global.kup);
 
-if global.JOYSTICKACTIVE = true
+if global.JOYSTICKACTIVE = true and os_type = os_android
 {
 	if oAndroidJoystick.joyMoveX < -30 {hInput = -1}
 	if oAndroidJoystick.joyMoveX > 30  {hInput = 1}

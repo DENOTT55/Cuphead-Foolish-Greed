@@ -1,3 +1,6 @@
+
+if global.PAUSE = true {vspeed = 0;gravity = 0;exit}
+
 if enable == 1{
 // Jump Control
 
@@ -81,84 +84,88 @@ if keyboard_check(global.kleft)
 
 #region ///Android Movement
 
-if estado != 7
+if  global.JOYSTICKACTIVE = true and os_type = os_android
 {
-if oAndroidJoystick.joyMoveX > 30 and global.JOYSTICKACTIVE = true 
-{
-	image_xscale = 1
-	if dock = 0
+
+	if estado != 7
 	{
-		if estado < 2
+	if oAndroidJoystick.joyMoveX > 30
+	{
+		image_xscale = 1
+		if dock = 0
 		{
-			estado = 1
-			sprite_index = spr_cupwalk
-			image_speed = 1
-		}
-		if (!place_meeting(x+velocidad, y, obj_collision))
-		{
-			x += velocidad
+			if estado < 2
+			{
+				estado = 1
+				sprite_index = spr_cupwalk
+				image_speed = 1
+			}
+			if (!place_meeting(x+velocidad, y, obj_collision))
+			{
+				x += velocidad
+			}
 		}
 	}
-}
-else if  oAndroidJoystick.joyMoveX >= 0 and oAndroidJoystick.joyMoveX < 29 and global.JOYSTICKACTIVE = true 
-{
-	if dock = 0
+	else if  oAndroidJoystick.joyMoveX >= 0 and oAndroidJoystick.joyMoveX < 29
 	{
-		estado = 0
+		if dock = 0
+		{
+			estado = 0
+			sprite_index = spr_cupidle
+			image_speed = 0.15
+		}
+	}
+
+	if oAndroidJoystick.joyMoveX < -30
+	{
+		image_xscale = -1
+		if dock = 0
+		{
+			if estado < 2
+			{
+				estado = 1
+				sprite_index = spr_cupwalk
+				image_speed = 1
+			}
+			if (!place_meeting(x-velocidad, y, obj_collision))
+			{
+				x -= velocidad
+			}
+		}
+	}
+	else if oAndroidJoystick.joyMoveX <= 0 and oAndroidJoystick.joyMoveX > -29
+	{
+		if dock = 0
+		{
+			estado = 0
+			sprite_index = spr_cupidle
+			image_speed = 0.15
+		}
+	}
+	}
+
+	if place_meeting(x,y+1,obj_collision){
+	if estado <= 1{
+	if oAndroidJoystick.joyMoveY >= 30 and oAndroidJoystick.joyMoveX <= 20 and oAndroidJoystick.joyMoveX > -20{
+	if dock = 0{
+		estado = 7		
+		sprite_index = spr_cupcrouch
+		image_speed = 0
+		vspeed = 0
+		}
+	}}}
+
+	if estado == 7{
+	if oAndroidJoystick.joyMoveY > -30 and oAndroidJoystick.joyMoveY < 0{
+	if dock = 0{
+		estado = 0		
 		sprite_index = spr_cupidle
-		image_speed = 0.15
-	}
-}
-
-if oAndroidJoystick.joyMoveX < -30 and global.JOYSTICKACTIVE = true 
-{
-	image_xscale = -1
-	if dock = 0
-	{
-		if estado < 2
-		{
-			estado = 1
-			sprite_index = spr_cupwalk
-			image_speed = 1
+		image_index = 0
+		image_speed = 0
 		}
-		if (!place_meeting(x-velocidad, y, obj_collision))
-		{
-			x -= velocidad
-		}
-	}
-}
-else if oAndroidJoystick.joyMoveX <= 0 and oAndroidJoystick.joyMoveX > -29 and global.JOYSTICKACTIVE = true 
-{
-	if dock = 0
-	{
-		estado = 0
-		sprite_index = spr_cupidle
-		image_speed = 0.15
-	}
-}
-}
+	}}
 
-if place_meeting(x,y+1,obj_collision){
-if estado <= 1{
-if oAndroidJoystick.joyMoveY >= 30 and oAndroidJoystick.joyMoveX <= 20 and oAndroidJoystick.joyMoveX > -20{
-if dock = 0{
-	estado = 7		
-	sprite_index = spr_cupcrouch
-	image_speed = 0
-	vspeed = 0
-	}
-}}}
-
-if estado == 7{
-if oAndroidJoystick.joyMoveY > -30 and oAndroidJoystick.joyMoveY < 0{
-if dock = 0{
-	estado = 0		
-	sprite_index = spr_cupidle
-	image_index = 0
-	image_speed = 0
-	}
-}}
-
+}
 #endregion
 
 //Aim Extra Control
@@ -286,6 +293,7 @@ if keyboard_check(global.kdown){
 if dock = 0{
 	estado = 7		
 	sprite_index = spr_cupcrouch
+	mask_index = spr_cupHitboxCrouch
 	image_speed = 0
 	vspeed = 0
 	}
@@ -296,6 +304,7 @@ if keyboard_check_released(global.kdown){
 if dock = 0{
 	estado = 0		
 	sprite_index = spr_cupidle
+	mask_index = spr_cupHitbox
 	image_index = 0
 	image_speed = 0
 	}

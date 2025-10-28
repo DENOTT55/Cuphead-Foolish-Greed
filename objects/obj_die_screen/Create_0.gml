@@ -8,3 +8,4 @@ audio_stop_sound(the_big_show_m)
 audio_stop_sound(monte_caotic_m)
 audio_stop_sound(winter_hunt_m)
 audio_stop_sound(snowvalley_m)
+song = 0

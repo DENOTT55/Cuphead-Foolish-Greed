@@ -1,3 +1,17 @@
+/* - - - - - IGNORE - - - - -
+pauseScale = lerp(pauseScale,pauseScaleTo,0.3)
+
+if global.PAUSE = true 
+{
+	draw_set_color(c_black);draw_set_alpha(pauseScale-(pauseScale*0.5))
+	draw_rectangle(0,0,640*2,360*2,0)
+	draw_set_color(c_white);draw_set_alpha(1)
+	pauseScaleTo = 1
+	exit
+}
+else {pauseScaleTo = 0}
+*/
+
 ///Menu de runas
 if runeMenu = true
 {

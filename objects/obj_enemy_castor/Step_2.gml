@@ -1,3 +1,5 @@
+if global.PAUSE = true {vspeed = 0;gravity = 0;exit}
+
 if act == 0 || act == 5{
 if (!place_meeting(x, y + 1, obj_collision))
     {

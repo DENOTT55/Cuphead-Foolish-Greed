@@ -23,3 +23,5 @@ grid_rows = 2;
 input_delay = 0;
 index = 0
 
+pauseScale = 0
+pauseScaleTo = 0

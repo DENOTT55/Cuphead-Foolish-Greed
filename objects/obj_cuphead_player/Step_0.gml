@@ -1,3 +1,6 @@
+if global.PAUSE = true {vulnerable = 1 ;exit}
+else if keyboard_check_pressed(global.kpause) {vulnerable = 0;vspeed = 1}
+
 // Detectar si hay un objeto sólido debajo del jugador
 shadow_y = y + 1; // Comenzamos justo debajo del jugador
 while (!place_meeting(x, shadow_y, obj_collision) && shadow_y < y + shadow_distance) {
@@ -41,7 +44,7 @@ if keyboard_check(global.kright) && keyboard_check(global.kdown)
 
 #region ///Android Apuntado
 
-if global.JOYSTICKACTIVE = true
+if global.JOYSTICKACTIVE = true and os_type = os_android
 {
 
 	if oAndroidJoystick.joyMoveY > -20 and oAndroidJoystick.joyMoveY < 20 and oAndroidJoystick.joyMoveX < -29
@@ -127,6 +130,7 @@ if vida > 2 {
 	image_alpha = 0
 	layer_enable_fx("dark_effect",true)
 	instance_create_layer(x,y,"Hud",obj_die_screen)
+	obj_die_screen.song = song
 	shotting = 0
 	vspeed = 0
 	hspeed = 0

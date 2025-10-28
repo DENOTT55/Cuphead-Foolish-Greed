@@ -22,6 +22,7 @@ if act == 3 {
 if keyboard_check_pressed(global.kjump){
 if act == 1{
 	instance_create_layer(x,y,"Transition",obj_transition)
+	audio_sound_gain(song,0,500)
 	image_index = 1
 	act = 2
 	}	

@@ -23,6 +23,7 @@ ini_write_real("Player","klock",ord("D"))
 ini_write_real("Player","kex",ord("V"))
 ini_write_real("Player","kdash",vk_shift)
 ini_write_real("Player","kweapon",ord("W"))
+ini_write_real("Player","kpause",vk_escape)
 }
 //
 //
@@ -51,6 +52,8 @@ global.klock = ini_read_string("Player","klock",ord("D"))
 global.kex = ini_read_string("Player","kex",ord("V"))
 global.kdash = ini_read_string("Player","kdash","vk_shift")
 global.kweapon = ini_read_string("Player","kweapon",ord("W"))
+
+global.kpause = ini_read_string("Player","kpause","vk_escape")
 
 //ESTABLECER VARIABLES DE ANDROID
 SetControlsANDROID()
@@ -99,6 +102,7 @@ global.AVALIBLEWEAPONS[7,2] = ini_read_real("Weapons", "example", 0)
 ini_close()
 
 global.unlocked_weapons = [];
+global.PAUSE = false
 
 if (file_exists("Save.ini")) {
     ini_open("Save.ini");

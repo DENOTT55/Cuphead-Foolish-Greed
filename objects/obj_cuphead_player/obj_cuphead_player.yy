@@ -49,6 +49,10 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_snowgolem","path":"objects/obj_snowgolem/obj_snowgolem.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_penny","path":"objects/obj_penny/obj_penny.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_dralabaza","path":"objects/obj_dralabaza/obj_dralabaza.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_hand","path":"objects/obj_hand/obj_hand.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_calabaza","path":"objects/obj_calabaza/obj_calabaza.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_tangle","path":"objects/obj_tangle/obj_tangle.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_cuphead_player",
@@ -80,8 +84,8 @@
     "path":"sprites/spr_cupidle/spr_cupidle.yy",
   },
   "spriteMaskId":{
-    "name":"spr_cupidle",
-    "path":"sprites/spr_cupidle/spr_cupidle.yy",
+    "name":"spr_cupHitbox",
+    "path":"sprites/spr_cupHitbox/spr_cupHitbox.yy",
   },
   "visible":true,
 }

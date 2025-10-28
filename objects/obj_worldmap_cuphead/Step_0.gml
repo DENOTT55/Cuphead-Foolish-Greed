@@ -1,3 +1,6 @@
+
+if global.PAUSE = true {exit}
+
 if smoke > 0{
 	smoke -= 1	
 }
@@ -6,7 +9,7 @@ if enable == 1{
 hInput = keyboard_check(global.kright) - keyboard_check(global.kleft);
 vInput = keyboard_check(global.kdown) - keyboard_check(global.kup);
 
-if global.JOYSTICKACTIVE = true
+if global.JOYSTICKACTIVE = true and os_type = os_android
 {
 	if oAndroidJoystick.joyMoveX < -30 {hInput = -1}
 	if oAndroidJoystick.joyMoveX > 30  {hInput = 1}
@@ -92,7 +95,7 @@ if equipmenu > 1{
 	index = 0
 }}
 
-if global.JOYSTICKACTIVE = true
+if global.JOYSTICKACTIVE = true and os_type = os_android
 {
 	if oAndroidJoystick.joyMoveX > 30 {
 	if equipmenu == 1{
@@ -154,7 +157,7 @@ if (input_delay > 0) {
 		audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
     }
 	
-	if global.JOYSTICKACTIVE = true
+	if global.JOYSTICKACTIVE = true and os_type = os_android
 	{
 		if (oAndroidJoystick.joyMoveX < -30) {
 	        selector_x = max(selector_x - 1, 0);

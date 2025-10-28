@@ -3,8 +3,8 @@
   "%Name":"spr_denott",
   "bboxMode":0,
   "bbox_bottom":94,
-  "bbox_left":13,
-  "bbox_right":63,
+  "bbox_left":10,
+  "bbox_right":69,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9745d791-98f9-43e7-aaf7-958a3e2745ab","name":"9745d791-98f9-43e7-aaf7-958a3e2745ab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"637c3f73-f313-4519-a73f-3d0e790ef034","name":"637c3f73-f313-4519-a73f-3d0e790ef034","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":95,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"59a561c9-71ba-4853-a3c7-8aaa14c06146","blendMode":0,"displayName":"default","isLocked":false,"name":"59a561c9-71ba-4853-a3c7-8aaa14c06146","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"96034c2e-c649-41b6-9d17-57c117b51914","blendMode":0,"displayName":"default","isLocked":false,"name":"96034c2e-c649-41b6-9d17-57c117b51914","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_denott",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9745d791-98f9-43e7-aaf7-958a3e2745ab","path":"sprites/spr_denott/spr_denott.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"927a02aa-be43-4060-8dad-c7de49a67496","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"637c3f73-f313-4519-a73f-3d0e790ef034","path":"sprites/spr_denott/spr_denott.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d17c4e36-501b-4149-8db5-d9b8cc9712af","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

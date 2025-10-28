@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.926644,
+  "duration":0.92664397,
   "name":"snd_hmclown",
   "parent":{
     "name":"Sonidos",

@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":5.084308,
+  "duration":5.0843086,
   "name":"snd_clownlaught",
   "parent":{
     "name":"Sonidos",
