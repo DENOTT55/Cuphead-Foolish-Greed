@@ -1,5 +1,5 @@
 // LANZAMIENTO HACHA
-sprite_index = spr_wendy_atk_throw
+sprite_index = Throw
 image_speed = 0
 image_xscale = 1.2
 image_yscale = 0.8

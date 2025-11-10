@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_wendy_intro_1",
   "bboxMode":2,
   "bbox_bottom":417,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b5b445a3-1675-4a4a-b15b-180c7ed662cd","name":"b5b445a3-1675-4a4a-b15b-180c7ed662cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5b445a3-1675-4a4a-b15b-180c7ed662cd","name":"b5b445a3-1675-4a4a-b15b-180c7ed662cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

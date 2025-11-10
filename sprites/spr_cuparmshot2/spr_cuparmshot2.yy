@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cuparmshot2",
   "bboxMode":2,
   "bbox_bottom":71,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"735f0276-37d5-49f2-8810-5ebfa89d43a5","name":"735f0276-37d5-49f2-8810-5ebfa89d43a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"735f0276-37d5-49f2-8810-5ebfa89d43a5","name":"735f0276-37d5-49f2-8810-5ebfa89d43a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

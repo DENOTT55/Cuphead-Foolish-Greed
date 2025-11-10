@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_enemie01w_fall",
   "bboxMode":2,
   "bbox_bottom":119,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1c813b36-3b49-47c9-80f2-41e0b2cfe476","name":"1c813b36-3b49-47c9-80f2-41e0b2cfe476","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1c813b36-3b49-47c9-80f2-41e0b2cfe476","name":"1c813b36-3b49-47c9-80f2-41e0b2cfe476","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

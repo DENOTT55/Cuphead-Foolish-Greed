@@ -50,6 +50,7 @@ if global.act == 20{
 	{
 		ini_open("Save.ini")
 		ini_write_string("Options","calidad",global.graficos)
+		ini_write_string("Player","SKINS",global.SKIN_NUM)
 		ini_write_string("Player","kleft",global.kleft)
 		ini_write_string("Player","kright",global.kright)
 		ini_write_string("Player","kup",global.kup)

@@ -18,6 +18,7 @@ if runeMenu = true
 	code = (string(runeSlot[0])+string(runeSlot[1])+string(runeSlot[2])+string(runeSlot[3])+string(runeSlot[4]))
 	var totalChecks = array_length(CODES)
 
+	/*
 	//-------------D E B U G---------------------------------------------------------
 	draw_text(300,20,string(runeSlot[0])+" "+string(runeSlot[1])+" "+string(runeSlot[2])+" "+string(runeSlot[3])+" "+string(runeSlot[4]))
 
@@ -32,6 +33,7 @@ if runeMenu = true
 	draw_text(20,160,"n: "+string(n))
 	draw_text(20,180,"cExist: "+string(codeExist))
 	//-------------------------------------------------------------------------------
+	*/
 
 	draw_sprite_ext(spr_runas_bg,0,640,360,4,4,0,c_white,1)
 
@@ -56,41 +58,76 @@ if runeMenu = true
 		draw_sprite_ext(spr_runas,i+1,640+(multiply*num),360+(360/1.5),4,4,0,c_white,alpha)
 	}
 
-	
-
 	draw_sprite_ext(skin,-1,curPosX,360+(360/1.5),4,4,0,c_white,1)
 	curPosX = lerp(curPosX,runePos[curPos],0.3)
 	
 	if keyboard_check_pressed(global.kright) and curPos < 4
 		{curPos++}
 	
-	if keyboard_check_pressed(global.kleft)  and curPos > 0
+	if keyboard_check_pressed(global.kleft) and curPos > 0
 		{curPos--}
-	
-	if keyboard_check_pressed(global.kjump) and runeSlot[curPos] = -1  and curPos != 5
+		
+	if global.JOYSTICKACTIVE = true and os_type = os_android and andTick = true
 	{
-		runeSlot[curPos] = order
-		runeNewPosX[curPos] = runePos[order]
-		if order < 4 {order++}
-	}
-	else if keyboard_check_pressed(global.kjump) and curPos = 5
-	{
-		if codeExist = true
-		{
-			RuneReward()
-		}
-		else
-		{
-			rgb = 0;
-			runePosY[0] = 380
-			runePosY[1] = 380
-			runePosY[2] = 380
-			runePosY[3] = 380
-			runePosY[4] = 380
-		}
+		if oAndroidJoystick.joyMoveX < -30 and curPos > 0 {curPos--;alarm[1] = 10;andTick = false; audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2)) }
+		if oAndroidJoystick.joyMoveX > 30 and curPos < 4 {curPos++;alarm[1] = 10;andTick = false; audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2)) }
 	}
 	
-	if keyboard_check_pressed(global.kshoot)
+	if canAct = true
+	{
+		if keyboard_check_pressed(global.kjump) and runeSlot[curPos] = -1  and curPos != 5
+		{
+			runeSlot[curPos] = order
+			runeNewPosX[curPos] = runePos[order]
+			if order < 4 {order++}
+			audio_play_sound(snd_weaponmenu_clic,10,false,1,0,random_range(0.8,1.2))
+		}
+		else if keyboard_check_pressed(global.kjump) and curPos = 5
+		{
+			if codeExist = true
+			{
+				RuneReward()
+			}
+			else
+			{
+				rgb = 0;
+				runePosY[0] = 380
+				runePosY[1] = 380
+				runePosY[2] = 380
+				runePosY[3] = 380
+				runePosY[4] = 380
+				audio_play_sound(snd_cuphead_jump,10,false,1,0,random_range(0.8,1.2))
+			}
+		}
+	}
+	
+	if keyboard_check_pressed(global.kshoot) and runeSlot[0] = -1 and runeSlot[1] = -1 and runeSlot[2] = -1 and runeSlot[3] = -1 and runeSlot[4] = -1
+	{
+			runeMenu = false
+			canAct = false
+			
+			order = 0
+			runeSlot[0] = -1
+			runeSlot[1] = -1
+			runeSlot[2] = -1
+			runeSlot[3] = -1
+			runeSlot[4] = -1
+		
+			rune[0] = runePos[0]
+			rune[1] = runePos[1]
+			rune[2] = runePos[2]
+			rune[3] = runePos[3]
+			rune[4] = runePos[4]
+			obj_runeDisplay.act = 0
+			obj_cuphead_player.enable = 1
+			obj_cuphead_player.enable = 1
+			obj_cuphead_player.enable = 1
+			obj_cuphead_player.enable = 1
+			obj_cuphead_player.enable = 1
+			obj_cuphead_player.enable = 1
+			audio_play_sound(snd_ballonknife,10,false,1,0,random_range(0.8,1.2))
+	}
+	else if keyboard_check_pressed(global.kshoot)
 	{
 		order = 0;curPos = 0;n = 0;codeExist = false;
 		runeSlot[0] = -1
@@ -104,6 +141,7 @@ if runeMenu = true
 		rune[2] = runePos[2]
 		rune[3] = runePos[3]
 		rune[4] = runePos[4]
+		audio_play_sound(snd_ballonknife,10,false,1,0,random_range(0.8,1.2))
 	}
 	
 	if runeSlot[0] > -1

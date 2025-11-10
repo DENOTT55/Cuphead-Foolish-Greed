@@ -5,7 +5,7 @@ alarm_set(11,4)
 
 if hp < 1 {
 	die = 1
-	sprite_index = spr_boss02_knockout
+	sprite_index = die
 	image_speed = 1
 	instance_destroy(obj_clown_mob)
 	instance_destroy(obj_clown_mob_1)

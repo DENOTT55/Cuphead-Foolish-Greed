@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_zancudo",
   "bboxMode":0,
   "bbox_bottom":47,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"910f4c0b-4179-4bc9-a19c-8bb05bec66e5","name":"910f4c0b-4179-4bc9-a19c-8bb05bec66e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"910f4c0b-4179-4bc9-a19c-8bb05bec66e5","name":"910f4c0b-4179-4bc9-a19c-8bb05bec66e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

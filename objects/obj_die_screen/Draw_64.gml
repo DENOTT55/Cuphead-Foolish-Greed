@@ -38,3 +38,17 @@ draw_set_font(dead_screen_font)
 draw_text_color(+452,+368,"''Quedaste frio, eh?''",c_black,c_black,c_black,c_black,image_alpha)
 draw_sprite_ext(spr_cuphead_dead_screen,0,csiluette,+504,1,1,0,c_white,image_alpha)
 }
+
+if endScreen != 0 {
+draw_sprite_ext(endScreen,0,+640,+218,1.7,1.7,0,c_white,image_alpha)
+draw_set_color(c_black)
+draw_set_font(dead_screen_font);draw_set_halign(fa_center)
+draw_text_color(+640,+368,endText[actualBoss.phase-1],c_black,c_black,c_black,c_black,image_alpha)
+draw_set_halign(fa_left)
+draw_sprite_ext(spr_cuphead_dead_screen,frameIndex,csiluette,+504,1,1,0,c_white,image_alpha)
+}
+/*
+draw_set_color(c_white)
+draw_text(+640,+10,csiluette)
+draw_text(+440,+10,csiluetteGoTo)
+draw_set_color(c_black)

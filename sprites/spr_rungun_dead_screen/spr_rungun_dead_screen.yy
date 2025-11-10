@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_rungun_dead_screen",
   "bboxMode":0,
   "bbox_bottom":171,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"aa3ce7e0-1325-4802-9ec1-de30299f5a6a","name":"aa3ce7e0-1325-4802-9ec1-de30299f5a6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aa3ce7e0-1325-4802-9ec1-de30299f5a6a","name":"aa3ce7e0-1325-4802-9ec1-de30299f5a6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

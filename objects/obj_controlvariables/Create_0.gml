@@ -34,12 +34,14 @@ global.mc_coins = ini_read_real("World","mccoins",0)
 global.bh_coins = ini_read_real("World","bhcoins",0)
 global.coins = ini_read_real("World","coins",0)
 global.muertes = ini_read_real("Player","muertes",0)
+global.SKIN_NUM = ini_read_real("Player","SKINS",0)
 
 //NIVELES FINALIZADOS
 global.fmonte = ini_read_real("World","fmonte",0)
 global.ftitiritero = ini_read_real("World","ftitiritero",0)
 global.fbosqueh = ini_read_real("World","fbosqueh",0)
 global.fwendy = ini_read_real("World","fwendy",0)
+global.fdralabaza = ini_read_real("World","fdralabaza",0)
 
 //VARIABLES DE CONTROLES
 global.kleft = ini_read_string("Player","kleft","vk_left")

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss01_transition_2",
   "bboxMode":2,
   "bbox_bottom":119,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1a5b4e24-0d9c-4918-9f7c-f7cc9dcdf220","name":"1a5b4e24-0d9c-4918-9f7c-f7cc9dcdf220","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a5b4e24-0d9c-4918-9f7c-f7cc9dcdf220","name":"1a5b4e24-0d9c-4918-9f7c-f7cc9dcdf220","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

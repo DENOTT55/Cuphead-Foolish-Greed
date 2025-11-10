@@ -1,6 +1,6 @@
 if act == 1{
 	act = 2
-	sprite_index = spr_wendy_idle
+	sprite_index = idle
 	image_speed = 1
 }
 

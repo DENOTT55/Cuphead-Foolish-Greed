@@ -17,7 +17,7 @@ if hp < 140{
 }
 
 if atk == 1{
-	sprite_index = spr_wendy_atk_01{
+	sprite_index = attack1{
 	image_speed = 1		
 	speed = 3
 	direction = 180
@@ -27,7 +27,7 @@ if atk == 1{
 }
 
 if atk == 2{
-	sprite_index = spr_wendy_atk_2{
+	sprite_index = attack2{
 	image_speed = 1		
 	speed = 2
 	direction = 180
@@ -37,7 +37,7 @@ if atk == 2{
 }
 
 if atk == 3{
-	sprite_index = spr_wendy_atk_3{
+	sprite_index = attack3{
 	image_speed = 1		
 	image_xscale = 1.2
 	image_yscale = 0.8

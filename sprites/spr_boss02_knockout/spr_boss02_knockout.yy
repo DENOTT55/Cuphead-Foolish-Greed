@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss02_knockout",
   "bboxMode":2,
   "bbox_bottom":244,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b7e69591-df07-47c9-959c-a4e66703d78e","name":"b7e69591-df07-47c9-959c-a4e66703d78e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b7e69591-df07-47c9-959c-a4e66703d78e","name":"b7e69591-df07-47c9-959c-a4e66703d78e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

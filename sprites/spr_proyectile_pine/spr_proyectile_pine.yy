@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_proyectile_pine",
   "bboxMode":2,
   "bbox_bottom":33,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ad5aec3f-f488-46cd-98da-bfb6f546f9c0","name":"ad5aec3f-f488-46cd-98da-bfb6f546f9c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"048b1ff2-ba01-4a0e-93f9-54b822f02bd2","name":"048b1ff2-ba01-4a0e-93f9-54b822f02bd2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ad5aec3f-f488-46cd-98da-bfb6f546f9c0","name":"ad5aec3f-f488-46cd-98da-bfb6f546f9c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"048b1ff2-ba01-4a0e-93f9-54b822f02bd2","name":"048b1ff2-ba01-4a0e-93f9-54b822f02bd2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

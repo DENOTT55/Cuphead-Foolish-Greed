@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_hearteffectw",
   "bboxMode":0,
   "bbox_bottom":116,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7c9161d3-bd38-40a2-9ce8-9255f27e6a89","name":"7c9161d3-bd38-40a2-9ce8-9255f27e6a89","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c9161d3-bd38-40a2-9ce8-9255f27e6a89","name":"7c9161d3-bd38-40a2-9ce8-9255f27e6a89","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

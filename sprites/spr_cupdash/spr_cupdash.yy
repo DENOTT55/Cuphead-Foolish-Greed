@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cupdash",
   "bboxMode":2,
   "bbox_bottom":71,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a856483a-db9e-4c22-8fa8-4e63bd659bb2","name":"a856483a-db9e-4c22-8fa8-4e63bd659bb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a856483a-db9e-4c22-8fa8-4e63bd659bb2","name":"a856483a-db9e-4c22-8fa8-4e63bd659bb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

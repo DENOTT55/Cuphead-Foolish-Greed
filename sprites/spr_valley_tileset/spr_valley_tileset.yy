@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_valley_tileset",
   "bboxMode":0,
   "bbox_bottom":143,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b91ee1d2-ba25-4ae4-bec2-9c5d069b758b","name":"b91ee1d2-ba25-4ae4-bec2-9c5d069b758b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b91ee1d2-ba25-4ae4-bec2-9c5d069b758b","name":"b91ee1d2-ba25-4ae4-bec2-9c5d069b758b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,10 +1,12 @@
+/*
 switch (runeMenu) {
     case false:
         runeMenu = true
+		obj_cuphead_player.enable = 0
     break;
 	case true:
         runeMenu = false
-		
+		obj_cuphead_player.enable = 1
 		order = 0
 		runeSlot[0] = -1
 		runeSlot[1] = -1

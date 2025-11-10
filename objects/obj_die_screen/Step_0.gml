@@ -1,11 +1,29 @@
+SpriteAnimationControl(false)
+
 if entrance == 1{
 if image_alpha < 1 {
 	image_alpha += 0.05	
 }}
 
+if image_alpha = 1
+{
+	csiluette = lerp(csiluette,csiluetteGoTo,0.05)
+}
+else 
+{
+	bossHp = cup.bossHp
+	
+	if bossHp != 1
+	{csiluetteGoTo = 750-bossHp}
+	else
+	{csiluetteGoTo = 640}
+}
+
+/*
 if csiluette < 640{
 	csiluette += 2	
 }
+*/
 
 if act == 2 {
 	if global.transition == 1{

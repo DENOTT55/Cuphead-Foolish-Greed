@@ -102,13 +102,18 @@ switch (state) {
 		if atk == 0
 		{
 			if t = ODM
-			{instance_create_layer(random_range(200,474),y,"Hud",obj_hand)}
+			{
+				audio_play_sound(phase1GenericSound[choose(0,1,2)],10,false,1.4,0,random_range(0.7,1.1))
+				instance_create_layer(random_range(200,474),y,"Hud",obj_hand)
+			}
 			
 			if t = round(ODM/2)
 			{instance_create_layer(random_range(200,474),y,"Hud",obj_hand)}
 			
 			if t = round(ODM/3)
 			{instance_create_layer(random_range(200,474),y,"Hud",obj_hand)}
+			
+			
 			
 			frameRate	= spawn[2]
 			frameEnd	= spawn[1]
@@ -118,7 +123,12 @@ switch (state) {
 		if atk == 1
 		{
 			if t = ODM
-			{instance_create_layer(x+(110*side),y,"Hud",obj_calaboom)}
+			{
+				audio_play_sound(phase1GenericSound[choose(0,1,2)],10,false,1.4,0,random_range(0.7,1.1))
+				instance_create_layer(x+(110*side),y,"Hud",obj_calaboom)
+			}
+			
+			
 			
 			frameRate	= spawn[2]
 			frameEnd	= spawn[1]
@@ -130,7 +140,7 @@ switch (state) {
 			t = ODM
 			
 			if frameIndex = 6 and FPS = 0
-			{vspeed = 20}
+			{vspeed = 20;audio_play_sound(phase1GenericSound[choose(0,1,2)],10,false,1.4,0,random_range(0.7,1.1))}
 			
 			if frameIndex >= frameEnd-1
 			{state = "idle";t = 0}
@@ -151,13 +161,17 @@ switch (state) {
 		if atk == 0
 		{
 			if t = ODM
-			{instance_create_layer(x,y-40,"Hud",obj_calabaza)}
+			{
+				audio_play_sound(phase2GenericSound[choose(0,1,2)],10,false,1.4,0,random_range(0.7,1.1))
+				instance_create_layer(x,y-40,"Hud",obj_calabaza)
+			}
 			
 			if t = round(ODM*0.8)
 			{instance_create_layer(x,y-40,"Hud",obj_calabaza)}
 			
 			if t = round(ODM*0.6)
 			{state = "idle"}
+			
 			
 			frameRate	= attack2[2]
 			frameEnd	= attack2[1]
@@ -167,12 +181,17 @@ switch (state) {
 		if atk == 1
 		{
 			if t = ODM*0.5
-			{instance_create_layer(x-(110*side),y-10,"Hud",obj_tangle)}
+			{
+				audio_play_sound(phase2GenericSound[choose(0,1,2)],10,false,1.4,0,random_range(0.7,1.1))
+				instance_create_layer(x-(110*side),y-10,"Hud",obj_tangle)
+			}
 			if t = ODM
 			{instance_create_layer(x-(110*side)*2,y-10,"Hud",obj_tangle)}
 			
 			if t = round(ODM*0.4)
 			{state = "idle"}
+			
+			
 			
 			frameRate	= attack2[2]
 			frameEnd	= attack2[1]
@@ -191,6 +210,9 @@ switch (state) {
 	case "startAnim":
 		if frameIndex >= frameEnd-1
 		{state = "idle";t = 0;}
+		
+		if frameIndex = 1
+		{audio_play_sound(startSound,10,false,1.4,0,random_range(0.7,1.1))}
 		
 		vspeed = 0
 		hspeed = 0
@@ -220,8 +242,29 @@ switch (state) {
     break;
 	
 	case "die":
-		if t = ODM*1.5 {audio_play_sound(snd_clowndie,10,false,1.4,0,random_range(0.7,1.1))}
-		if t = 1 {room_goto(rm_museo)}
+		if t = ODM*1 
+		{
+			audio_play_sound(soundDie,10,false,1.4,0,random_range(0.7,1.1))
+			instance_destroy(obj_fall_damage_collision)
+			global.fdralabaza = 1
+			ini_open("Save.ini")
+			ini_write_real("World","fwendy",1)
+			ini_close()
+			audio_play_sound(snd_BOSS_Explosion,10,false)
+			instance_create_layer(0,0,"Instances",obj_knockout_letter)
+			audio_sound_gain(song,0,1000)
+		}
+		
+		if t <= 1 {if endAlpha < 1 {endAlpha+=0.01}}
+		
+		if endAlpha = 1-0.01 
+		{
+			alarm[0] = room_speed*1
+			obj_cuphead_player.enable = 0
+			obj_cuphead_player.enable = 0
+		}
+		
+		loop = false
 		vspeed = 0
 		hspeed = 0
 		
@@ -233,6 +276,8 @@ switch (state) {
 	case "stop":
 		vspeed = 0
 		hspeed = 0
+		
+		obj_cuphead_player.bossHp = hp
 		
 		audio_sound_gain(song,0.2,500)
 		audio_sound_pitch(song,0.8)

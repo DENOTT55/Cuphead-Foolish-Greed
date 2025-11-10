@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_snow_particle",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"91001b48-96c7-41a9-985e-27426e5bce1f","name":"91001b48-96c7-41a9-985e-27426e5bce1f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8cf06a5f-3905-4e47-989f-535f876293a3","name":"8cf06a5f-3905-4e47-989f-535f876293a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"91001b48-96c7-41a9-985e-27426e5bce1f","name":"91001b48-96c7-41a9-985e-27426e5bce1f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8cf06a5f-3905-4e47-989f-535f876293a3","name":"8cf06a5f-3905-4e47-989f-535f876293a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

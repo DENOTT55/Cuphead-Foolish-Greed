@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_proyectil_pingu",
   "bboxMode":2,
   "bbox_bottom":43,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2f525170-6dc0-4d12-a003-bc4fac0c7f95","name":"2f525170-6dc0-4d12-a003-bc4fac0c7f95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"90453d38-9bbc-489b-a2dc-ea6341b3f9d6","name":"90453d38-9bbc-489b-a2dc-ea6341b3f9d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2f525170-6dc0-4d12-a003-bc4fac0c7f95","name":"2f525170-6dc0-4d12-a003-bc4fac0c7f95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"90453d38-9bbc-489b-a2dc-ea6341b3f9d6","name":"90453d38-9bbc-489b-a2dc-ea6341b3f9d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

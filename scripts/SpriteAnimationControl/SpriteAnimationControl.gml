@@ -22,7 +22,7 @@ function SpriteAnimationControl(argument0 = true) {
 	{frameIndex++;FPS = 0;}
 
 	if loop = false and frameIndex >= frameEnd 
-	{frameIndex = frameEnd;play = false;FPS = 0;}
+	{play = false;frameIndex = frameEnd;FPS = 0;}
 
 
 	//Loop On

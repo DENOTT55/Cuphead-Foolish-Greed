@@ -7,7 +7,7 @@ if hp < 1 {
 	die = 1
 	vspeed = 0
 	hspeed = 0
-	sprite_index = spr_boss01_transition
+	sprite_index = die
 	image_speed = 0.70
 	alarm_set(6,80)
 	nattack = 0

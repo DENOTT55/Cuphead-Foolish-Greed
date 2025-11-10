@@ -1,15 +1,17 @@
 {
-  "$GMSound":"",
+  "$GMSound":"v2",
   "%Name":"snd_cuphead_ex_01",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "bitRate":128,
+  "channelFormat":0,
   "compression":0,
+  "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.731542,
+  "duration":0.73154193,
+  "exportDir":"",
   "name":"snd_cuphead_ex_01",
   "parent":{
     "name":"Sonidos",
@@ -20,6 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"snd_cuphead_ex_01.ogg",
-  "type":0,
   "volume":0.36,
 }

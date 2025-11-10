@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_overworld_cactuses_1",
   "bboxMode":0,
   "bbox_bottom":84,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2080a39d-1877-4054-9ea1-f901202df48d","name":"2080a39d-1877-4054-9ea1-f901202df48d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2080a39d-1877-4054-9ea1-f901202df48d","name":"2080a39d-1877-4054-9ea1-f901202df48d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

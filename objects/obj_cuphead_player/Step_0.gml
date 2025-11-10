@@ -1,5 +1,5 @@
-if global.PAUSE = true {vulnerable = 1 ;exit}
-else if keyboard_check_pressed(global.kpause) {vulnerable = 0;vspeed = 1}
+/*if global.PAUSE = true {vulnerable = 1 ;exit}
+else if keyboard_check_pressed(global.kpause) {vulnerable = 0;vspeed = 1}*/
 
 // Detectar si hay un objeto sólido debajo del jugador
 shadow_y = y + 1; // Comenzamos justo debajo del jugador
@@ -131,6 +131,11 @@ if vida > 2 {
 	layer_enable_fx("dark_effect",true)
 	instance_create_layer(x,y,"Hud",obj_die_screen)
 	obj_die_screen.song = song
+	obj_die_screen.endScreen = endScreen
+	obj_die_screen.endText = endText
+	obj_die_screen.bossHp = bossHp
+	obj_die_screen.actualBoss = actualBoss
+	obj_die_screen.cup = self
 	shotting = 0
 	vspeed = 0
 	hspeed = 0

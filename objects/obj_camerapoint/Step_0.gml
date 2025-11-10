@@ -1,4 +1,4 @@
-
+/*
 if keyboard_check_pressed(global.kpause)
 {
 	switch (global.PAUSE)
@@ -11,7 +11,7 @@ if keyboard_check_pressed(global.kpause)
 	        global.PAUSE = true
 	    break;
 	}
-}
+}*/
 
 if instance_exists(obj_cuphead_player) {
 if(x != obj_cuphead_player.x)
@@ -39,5 +39,5 @@ ini_open("SaveArchivements.ini")
 	var actualDeaths = ini_read_real("Archivements","Ve a tocar pasto...",0)
 ini_close()
 
-if global.muertes >= 5 and actualDeaths = 0
+if global.muertes >= 50 and actualDeaths = 0
 {UnlockArchivement(2,"Ve a tocar pasto...","Consigue mas de 1000 muertes",1)}

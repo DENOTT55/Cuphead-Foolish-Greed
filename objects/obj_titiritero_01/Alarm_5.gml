@@ -3,17 +3,17 @@ image_yscale = 0.8
 image_xscale = 1.2
 act = 4
 if nattack == 1{	
-	sprite_index = spr_boss01_atk
+	sprite_index = attack
 	instance_create_depth(x,y,-2,obj_dague)
 }
 
 if nattack == 2{	
-	sprite_index = spr_boss01_atk
+	sprite_index = attack
 	instance_create_depth(x,y,-2,obj_hat)
 }
 
 if nattack == 2{	
-	sprite_index = spr_boss01_atk
+	sprite_index = attack
 }
 
 if nattack == 4{

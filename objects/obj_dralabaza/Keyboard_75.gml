@@ -1,1 +1,1 @@
-hp = lerp(hp,(totalHp/3)-3,0.3)
+/*hp = lerp(hp,(totalHp/3)-3,0.3)

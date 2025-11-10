@@ -1,0 +1,6 @@
+ini_open("Save.ini")
+ini_write_real("World","ftitiritero",1)
+ini_write_real("World","fwendy",1)
+ini_close()
+game_restart()
+audio_play_sound(snd_cupheadplane_shot_super,5,false,0.5)

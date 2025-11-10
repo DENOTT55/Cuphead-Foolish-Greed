@@ -87,6 +87,7 @@ if vida > 2 {
 	image_alpha = 0
 	layer_enable_fx("dark_effect",true)
 	instance_create_depth(x,y,-1,obj_die_screen)
+	obj_die_screen.cup = self
 	shotting = 0
 	vspeed = 0
 	hspeed = 0

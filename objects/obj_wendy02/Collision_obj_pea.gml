@@ -5,7 +5,7 @@ alarm_set(11,4)}
 if act != 9{
 if hp < 1 {
 	act = 9
-	sprite_index = spr_wendy2_die
+	sprite_index = die
 	image_speed = 1
 	image_index = 0
 	alarm_set(6,60)

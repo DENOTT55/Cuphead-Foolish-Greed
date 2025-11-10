@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_arbol_enemydie",
   "bboxMode":2,
   "bbox_bottom":213,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dd67fb73-3367-41a2-b12b-6ad2312aa11a","name":"dd67fb73-3367-41a2-b12b-6ad2312aa11a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1a8493b1-bd24-40c2-aee4-11c738af3366","name":"1a8493b1-bd24-40c2-aee4-11c738af3366","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dd67fb73-3367-41a2-b12b-6ad2312aa11a","name":"dd67fb73-3367-41a2-b12b-6ad2312aa11a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a8493b1-bd24-40c2-aee4-11c738af3366","name":"1a8493b1-bd24-40c2-aee4-11c738af3366","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

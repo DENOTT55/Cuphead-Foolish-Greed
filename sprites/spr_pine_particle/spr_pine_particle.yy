@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pine_particle",
   "bboxMode":0,
   "bbox_bottom":52,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fce076fa-87b7-490c-850b-dca7a6c9be6c","name":"fce076fa-87b7-490c-850b-dca7a6c9be6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5342cd19-d441-4596-bf4f-a1498cef3545","name":"5342cd19-d441-4596-bf4f-a1498cef3545","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fce076fa-87b7-490c-850b-dca7a6c9be6c","name":"fce076fa-87b7-490c-850b-dca7a6c9be6c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5342cd19-d441-4596-bf4f-a1498cef3545","name":"5342cd19-d441-4596-bf4f-a1498cef3545","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

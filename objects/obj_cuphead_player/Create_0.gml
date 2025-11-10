@@ -16,6 +16,10 @@ vida = 0; //Vida (Duh) -- El "Duh" XDDDD
 storeVspeed = 0 //Guarda la velocidad vertical al pausar
 
 song = 0
+endScreen = 0
+endText = 0
+bossHp = 1
+actualBoss = 0
 
 if os_type = os_android
 {

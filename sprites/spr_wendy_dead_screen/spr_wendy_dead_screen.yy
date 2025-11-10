@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_wendy_dead_screen",
   "bboxMode":0,
   "bbox_bottom":171,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"914c0da1-72f3-4137-95bf-522605a17017","name":"914c0da1-72f3-4137-95bf-522605a17017","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"914c0da1-72f3-4137-95bf-522605a17017","name":"914c0da1-72f3-4137-95bf-522605a17017","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,6 +63,8 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":184.0,
+    "seqWidth":184.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

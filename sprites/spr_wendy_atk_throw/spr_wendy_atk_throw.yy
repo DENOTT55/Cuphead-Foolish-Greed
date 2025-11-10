@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_wendy_atk_throw",
   "bboxMode":2,
   "bbox_bottom":417,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"23343522-9d48-4e7e-9335-50e7a6753715","name":"23343522-9d48-4e7e-9335-50e7a6753715","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"23343522-9d48-4e7e-9335-50e7a6753715","name":"23343522-9d48-4e7e-9335-50e7a6753715","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

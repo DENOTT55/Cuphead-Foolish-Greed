@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lightbomb_titiritero",
   "bboxMode":0,
   "bbox_bottom":130,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f9b6e9c6-dfb6-4a70-992d-37b6a937693a","name":"f9b6e9c6-dfb6-4a70-992d-37b6a937693a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"642f391f-3ae1-42a7-b104-40fc3e94e4cc","name":"642f391f-3ae1-42a7-b104-40fc3e94e4cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f9b6e9c6-dfb6-4a70-992d-37b6a937693a","name":"f9b6e9c6-dfb6-4a70-992d-37b6a937693a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"642f391f-3ae1-42a7-b104-40fc3e94e4cc","name":"642f391f-3ae1-42a7-b104-40fc3e94e4cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

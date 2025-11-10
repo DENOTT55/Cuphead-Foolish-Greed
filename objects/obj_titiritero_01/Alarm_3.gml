@@ -3,7 +3,7 @@ image_yscale = 0.8
 image_xscale = 1.2
 act = 2 
 hspeed = 0
-sprite_index = spr_boss01_prepare
+sprite_index = prepare
 image_speed = 0.80
 if (random(3) >= 1.5)
 {

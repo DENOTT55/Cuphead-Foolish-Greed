@@ -1,5 +1,5 @@
-
-if global.PAUSE = true {vspeed = 0;gravity = 0;exit}
+/*
+if global.PAUSE = true {vspeed = 0;gravity = 0;exit}*/
 
 if enable == 1{
 // Jump Control

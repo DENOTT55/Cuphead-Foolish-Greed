@@ -1,6 +1,7 @@
 /// @description Function
 
 //if global.PAUSEGAME = true{exit}
+if os_type = os_windows{exit}
 
 if device_mouse_check_button(0,mb_left)
 {

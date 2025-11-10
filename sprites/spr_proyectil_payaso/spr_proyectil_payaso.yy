@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_proyectil_payaso",
   "bboxMode":2,
   "bbox_bottom":43,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ff41303c-97dd-4bf7-87e0-00687daf35e6","name":"ff41303c-97dd-4bf7-87e0-00687daf35e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a21a946e-6723-4da4-bf5c-fbdf692047d9","name":"a21a946e-6723-4da4-bf5c-fbdf692047d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff41303c-97dd-4bf7-87e0-00687daf35e6","name":"ff41303c-97dd-4bf7-87e0-00687daf35e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a21a946e-6723-4da4-bf5c-fbdf692047d9","name":"a21a946e-6723-4da4-bf5c-fbdf692047d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -8,7 +8,7 @@ if keyboard_check(global.kdown){
 else	{
 if estado != 3{
 move_contact_solid(-90,12)
-coyote = 0
+if !place_free(x,y+2) {coyote = 0}
 vspeed = 0
 estado = 0
 sprite_index = spr_cupidle

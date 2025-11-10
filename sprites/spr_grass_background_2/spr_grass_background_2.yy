@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_grass_background_2",
   "bboxMode":0,
   "bbox_bottom":479,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3f27b3f5-9d7c-4152-8f87-b34d3f951be5","name":"3f27b3f5-9d7c-4152-8f87-b34d3f951be5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3f27b3f5-9d7c-4152-8f87-b34d3f951be5","name":"3f27b3f5-9d7c-4152-8f87-b34d3f951be5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

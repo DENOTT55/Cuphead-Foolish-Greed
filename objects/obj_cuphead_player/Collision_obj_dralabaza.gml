@@ -1,4 +1,4 @@
-if vulnerable == 0
+if vulnerable == 0 and other.state != "die"
 {
 	layer_set_visible("shakefx",true)
 	alarm_set(10,10)

@@ -1,4 +1,4 @@
-sprite_index = spr_wendy2_idle
+sprite_index = idle
 image_speed = 1
 act = 3
 vspeed = 0

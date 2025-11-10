@@ -1,5 +1,5 @@
 act = 1
 speed = 6
 direction = 180
-sprite_index = spr_wendy_intro
+sprite_index = start
 image_speed = 0.80

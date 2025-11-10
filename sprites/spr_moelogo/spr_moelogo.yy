@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_moelogo",
   "bboxMode":0,
   "bbox_bottom":227,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"36c86a92-efa5-4ba4-862d-a9e21433b565","name":"36c86a92-efa5-4ba4-862d-a9e21433b565","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"36c86a92-efa5-4ba4-862d-a9e21433b565","name":"36c86a92-efa5-4ba4-862d-a9e21433b565","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

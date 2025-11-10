@@ -1,3 +1,3 @@
-sprite_index = spr_clown_mob_2
+sprite_index = attack
 image_speed = 0
 alarm_set(1,45)

@@ -2,6 +2,12 @@ camspeed = 0.3
 image_alpha = 0
 image_speed = 1
 skin = spr_runas_cursor;
+canAct = false
+andTick = true
+
+ini_open("Save.ini")
+global.kpause = ini_read_string("Player","kpause","vk_escape")
+ini_close()
 
 pauseScale = 0
 pauseScaleTo = 0
@@ -13,7 +19,6 @@ code = "00000"
 
 CODES = [
 	"", // START
-	"43210", // Unlock: ...
 	"34210", // Unlock: ...
 	"01234", // Unlock: ...
 	

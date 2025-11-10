@@ -1,6 +1,7 @@
 frontspd = -0.15
 back01spd = 0.15
 back02spd = 0.2
+back03spd = 0.25
 
 
 

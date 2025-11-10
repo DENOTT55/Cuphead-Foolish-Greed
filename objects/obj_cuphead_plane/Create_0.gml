@@ -11,6 +11,7 @@ estado = 0
 parrydelay = 0
 inv = 75 //Tiempo de invulnerabilidad (Con charms debe poder alargarse)
 
+bossHp = 1
 
 if os_type = os_android
 {

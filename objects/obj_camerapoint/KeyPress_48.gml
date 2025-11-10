@@ -1,1 +1,0 @@
-global.AVALIBLEWEAPONS[1,2] = 0
